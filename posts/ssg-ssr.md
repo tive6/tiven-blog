@@ -1,27 +1,82 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
+title: 'axios / fetch 实现 stream 流式请求'
 date: '2020-01-02'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+axios 是一个支持node端和浏览器端的易用、简洁且高效的http库。本文主要介绍 axios / fetch 如何实现 stream 流式请求，注意这里需要区分 node 环境和浏览器环境。
 
-You can use Static Generation for many types of pages, including:
+![axios stream](https://tiven.cn/static/img/axios-stream-01-kcUzNdZO.jpg)
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+## 一、node端
 
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
-
-- eg:
+代码演示：
 
 ```js
-export default function Api(req, res) {
-  res.status(200).json({ text: 'Hello' })
+const axios = require('axios');
+
+axios({
+  method: 'get',
+  url: 'http://tiven.cn/static/img/axios-stream-01-kcUzNdZO.jpg',
+  responseType: 'stream'
+})
+.then(response => {
+  
+  response.data.on('data', (chunk) => {
+    // 处理流数据的逻辑
+  });
+
+  response.data.on('end', () => {
+    // 数据接收完成的逻辑
+  });
+
+}); 
+```
+
+## 二、浏览器端
+
+在浏览器端，axios 是使用 **XMLHttpRequest** 对象来实现请求，设置 `responseType: 'stream'` 后会出现以下警告⚠️：
+`The provided value 'stream' is not a valid enum value of type XMLHttpRequestResponseType.`
+所以，在浏览器端，我们需要使用浏览器内置API `fetch` 来实现 **stream** 流式请求。
+
+代码演示：
+
+```js
+async function getStream() {
+  try {
+    let response = await fetch('/api/admin/common/testStream');
+    console.log(response);
+    
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+
+    const reader = response.body.getReader();
+    const textDecoder = new TextDecoder();
+    let result = true;
+    let output = ''
+
+    while (result) {
+      const { done, value } = await reader.read();
+
+      if (done) {
+        console.log('Stream ended');
+        result = false;
+        break;
+      }
+
+      const chunkText = textDecoder.decode(value);
+      output += chunkText;
+      console.log('Received chunk:', chunkText);
+    }
+  } catch (e) {
+    console.log(e);
+  }
 }
 ```
+
+
+---
+
+欢迎访问：[天问博客](https://tiven.cn/p/5056ee2b/ "天问博客-专注于大前端技术")
+

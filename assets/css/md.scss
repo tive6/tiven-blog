@@ -1,0 +1,28 @@
+article.prose {
+
+  p {
+    code {
+      color: #c7254e;
+      background-color: #f9f2f4;
+      border-radius: 2px;
+      padding: 2px 4px;
+
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  pre {
+    background-color: #282c34 !important;
+
+    code {
+      color: #abb2bf !important;
+    }
+  }
+
+  code {
+    white-space: break-spaces;
+  }
+}

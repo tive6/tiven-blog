@@ -14,7 +14,10 @@
     "dayjs": "^1.11.9",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "fs-extra": "^11.1.1",
     "gray-matter": "^4.0.3",
+    "highlight.js": "^11.8.0",
+    "markdown-it": "^13.0.1",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -22,8 +25,10 @@
     "remark-html": "^15.0.2"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^13.4.19",
     "@unocss/webpack": "^0.55.7",
     "autoprefixer": "10.4.15",
+    "eslint-config-prettier": "^9.0.0",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "8.4.29",
     "sass": "^1.66.1",
