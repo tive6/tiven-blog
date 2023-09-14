@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const name = 'Tomcat'
 export const siteTitle = 'Next.js Sample Website'
@@ -27,9 +28,11 @@ export default function Layout({ children, home }) {
         <header className="flex items-center justify-center flex-col">
           {home ? (
               <>
-                <img
+                <Image
                     src={picSrc}
                     className="block w-100px rounded-full"
+                    width={100}
+                    height={100}
                     alt={name}
                 />
                 <h1 className="text-center">{name}</h1>
@@ -38,9 +41,11 @@ export default function Layout({ children, home }) {
               <>
                 <Link href="/" legacyBehavior>
                   <a>
-                    <img
+                    <Image
                         src={picSrc}
                         className="block w-100px"
+                        width={100}
+                        height={100}
                         alt={name}
                     />
                   </a>
