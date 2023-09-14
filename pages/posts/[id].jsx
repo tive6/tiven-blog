@@ -18,7 +18,8 @@ export default function Post({ postData }) {
           </div>
           {/*{postData.date}*/}
           <br />
-          <div className="mt-20px" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <div className="mt-20px prose prose-truegray"
+               dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
       </Layout>
   )

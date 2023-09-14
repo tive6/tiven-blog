@@ -2,6 +2,7 @@
 import {
   defineConfig,
   presetAttributify,
+  presetTypography,
   presetIcons,
   presetUno,
   presetWebFonts
@@ -9,7 +10,8 @@ import {
 
 export default defineConfig({
   presets: [
-    presetUno()
+    presetUno(),
+    presetTypography(),
     // ...
   ]
 })
