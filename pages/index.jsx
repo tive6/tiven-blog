@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '@/components/date'
+import Image from 'next/image'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -33,6 +34,15 @@ export default function Home({ allPostsData }) {
           </a>{' '}
           ]
         </p>
+      </section>
+      <section className="mt-20px">
+        <Image
+          src="https://tiven.cn/static/img/cycling-01-lZ6jqdHF.jpg"
+          className="block w-100% rounded-6px"
+          width={2000}
+          height={2000}
+          alt="tiven"
+        />
       </section>
       <section className="w-500px mx-auto shadow p-20px my-20px">
         <h2 className="font-600 mb-20px text-20px">博客列表</h2>
