@@ -5,7 +5,7 @@ const UnoCSS = require('@unocss/webpack').default
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['placekitten.com'],
+    domains: ['placekitten.com', 'tiven.cn'],
     // remotePatterns: [
     //   {
     //     protocol: 'https',
@@ -17,9 +17,7 @@ const nextConfig = {
   },
   webpack: (config) => {
     config.cache = false
-    config.plugins.push(
-        UnoCSS(),
-    )
+    config.plugins.push(UnoCSS())
     return config
   },
 }

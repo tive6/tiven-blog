@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const name = 'Tomcat'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'Tiven'
+export const siteTitle = '天问博客'
 
 export const picSrc = 'https://placekitten.com/g/350/350'
 
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="天問的个人网站(天问博客)，专注于Node.js、Vue、React、Svelte、Electron、Tauri、Vite、Nginx等大前端技术。不断学习新技术，记录日常开发问题，持续分享coding，极客开源，共同进步。生命不息，奋斗不止..."
         />
         <meta
           property="og:image"
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   src={picSrc}
-                  className="block w-100px"
+                  className="block w-100px rounded-full"
                   width={100}
                   height={100}
                   alt={name}
@@ -62,7 +62,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className="mt-20px text-#66b1ff">
           <Link href="/" legacyBehavior>
-            <a>← Back to home</a>
+            <a>← 返回首页</a>
           </Link>
         </div>
       )}

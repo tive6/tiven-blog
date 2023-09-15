@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prepm2": "npm run build",
+    "pm2": "pm2 start npm --name \"next-blog\" -- run start",
     "lint": "next lint",
     "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./pages --quiet ./components --quiet ./lib",
     "git": "tive git -c tive.git.config.cjs"

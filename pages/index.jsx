@@ -19,21 +19,23 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className="w-300px mx-auto mt-10px">
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
+      <section className="w-450px mx-auto mt-10px">
+        <p>博观而约取，厚积而薄发</p>
+        <p className="text-#666 mt-10px">
+          Next.js
+          为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、
+          支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置。 [{' '}
           <a
             className="text-#66b1ff decoration-underline"
-            href="https://www.nextjs.cn/learn"
+            href="https://tiven.cn"
           >
-            our Next.js tutorial
-          </a>
-          .)
+            hexo blog
+          </a>{' '}
+          ]
         </p>
       </section>
       <section className="w-500px mx-auto shadow p-20px my-20px">
-        <h2 className="font-600 mb-20px text-20px">Blog List</h2>
+        <h2 className="font-600 mb-20px text-20px">博客列表</h2>
         <ul className="">
           {allPostsData.map(({ id, date, title }) => (
             <li className="b-b-1 mb-20px pb-10px" key={id}>
