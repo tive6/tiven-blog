@@ -7,9 +7,13 @@ import Image from 'next/image'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+  console.log('allPostsData', allPostsData)
   return {
     props: {
-      allPostsData,
+      allPostsData: allPostsData.map((item) => ({
+        ...item,
+        date: item.date + '',
+      })),
     },
   }
 }
@@ -54,7 +58,7 @@ export default function Home({ allPostsData }) {
               </Link>
               <br />
               <small className="text-#666">
-                <Date dateString={date} />
+                <Date dateString={date + ''} />
               </small>
             </li>
           ))}

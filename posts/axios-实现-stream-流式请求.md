@@ -1,12 +1,18 @@
 ---
-title: 'axios / fetch 实现 stream 流式请求'
-date: '2020-01-02'
+title: axios / fetch 实现 stream 流式请求
+tags:
+- Node
+- JS
+- Axios
+categories:
+- Node
+abbrlink: 5056ee2b
+date: 2023-08-11 16:53:18
 ---
 
 axios 是一个支持node端和浏览器端的易用、简洁且高效的http库。本文主要介绍 axios / fetch 如何实现 stream 流式请求，注意这里需要区分 node 环境和浏览器环境。
 
 ![axios stream](https://tiven.cn/static/img/axios-stream-01-kcUzNdZO.jpg)
-
 
 ## 一、node端
 

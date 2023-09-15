@@ -10,7 +10,8 @@
     "pm2": "pm2 start npm --name \"next-blog\" -- run start",
     "lint": "next lint",
     "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./pages --quiet ./components --quiet ./lib",
-    "git": "tive git -c tive.git.config.cjs"
+    "git": "tive git -c tive.git.config.cjs",
+    "gen": "node ./scripts/gen-blog-list.js"
   },
   "dependencies": {
     "axios": "^1.5.0",

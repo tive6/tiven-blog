@@ -1,12 +1,18 @@
 ---
-title: 'nodeJs + cheerio + axios 实现一个小爬虫'
-date: '2020-01-01'
+title: nodeJs + cheerio + axios 实现一个小爬虫
+tags:
+- Node
+- Axios
+- cheerio
+categories:
+- Node
+abbrlink: d6f27923
+date: 2023-06-25 14:26:45
 ---
 
-`cheerio` 是 **nodejs** 特别为服务端定制的，能够像 **jQuery** 去操作获取 **DOM** 。 有了 `cheerio` 加上 **axios** 就能很轻松实现一个网络小爬虫。
+`cheerio` 是 **nodejs** 特别为服务端定制的，能够像 **jQuery** 去操作获取 **DOM** 。 有了 `cheerio` 加上 **axios** 就能很轻松实现一个网络小爬虫。  
 
 ![nodeJs + cheerio + axios 爬虫](https://tiven.cn/static/img/img-cheerio-01-MT5PpBQsl_YI16xUf1ijA.jpg)
-
 
 ## 安装 cheerio 和 axios
 
