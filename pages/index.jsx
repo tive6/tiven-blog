@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
-  console.log('allPostsData', allPostsData)
+  // console.log('allPostsData', allPostsData)
   return {
     props: {
       allPostsData: allPostsData.map((item) => ({
