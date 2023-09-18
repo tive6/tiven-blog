@@ -9,6 +9,8 @@ import 'highlight.js/styles/atom-one-dark-reasonable.css'
 // import 'highlight.js/styles/tomorrow-night-bright.css';
 // import '@/assets/css/md.scss'
 
+// console.log(process.env.NEXT_PUBLIC_SITE)
+
 export default function Post({ postData }) {
   return (
     <Layout>
@@ -61,6 +63,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
+  // console.log(process.env.TOKEN)
   return {
     props: {
       postData,
