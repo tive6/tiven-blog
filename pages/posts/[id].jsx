@@ -1,4 +1,3 @@
-import Layout from '@/components/layout'
 import { getAllPostIds, getPostData } from '@/lib/posts'
 import Head from 'next/head'
 import Date from '@/components/date'
@@ -8,7 +7,6 @@ import Date from '@/components/date'
 import 'highlight.js/styles/atom-one-dark-reasonable.css'
 // import 'highlight.js/styles/tomorrow-night-bright.css';
 // import '@/assets/css/md.scss'
-
 // console.log(process.env.NEXT_PUBLIC_SITE)
 
 export default function Post({ postData }) {

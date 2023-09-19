@@ -3,8 +3,7 @@ import '@unocss/reset/tailwind.css'
 import 'uno.css'
 import '@/assets/css/global.scss'
 import '@/assets/css/md.scss'
-import Layout, { siteTitle } from '@/components/layout'
-import Header from '@/components/header'
+import Layout from '@/components/layout'
 
 function MyApp({ Component, pageProps }) {
   return (

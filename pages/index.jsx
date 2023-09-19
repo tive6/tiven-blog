@@ -1,10 +1,7 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import { getSortedPostsData } from '../lib/posts'
+import { getSortedPostsData } from '@/lib/posts'
 import Link from 'next/link'
 import Date from '@/components/date'
 import Image from 'next/image'
-import Header from '@/components/header'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
