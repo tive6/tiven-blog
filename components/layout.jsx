@@ -1,13 +1,23 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import Header from '@/components/header'
+import { useRouter } from 'next/router'
+import { useMemo } from 'react'
 
 const name = 'Tiven'
 export const siteTitle = '天问博客'
-
 export const picSrc = 'https://placekitten.com/g/350/350'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
+  const { pathname } = useRouter()
+  // console.log({ pathname })
+  // const isHome = useMemo(() => {
+  //   return pathname === '/'
+  // }, [pathname])
+  const isPost = useMemo(() => {
+    return pathname === '/posts/[id]'
+  }, [pathname])
   return (
     <div className="w-680px mx-auto py-3">
       <Head>
@@ -26,8 +36,8 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className="flex items-center justify-center flex-col">
-        {home ? (
-          <>
+        <Link href="/" legacyBehavior>
+          <a>
             <Image
               src={picSrc}
               className="block w-100px rounded-full"
@@ -35,32 +45,18 @@ export default function Layout({ children, home }) {
               height={100}
               alt={name}
             />
-            <h1 className="text-center">{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/" legacyBehavior>
-              <a>
-                <Image
-                  src={picSrc}
-                  className="block w-100px rounded-full"
-                  width={100}
-                  height={100}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className="text-center">
-              <Link href="/" legacyBehavior>
-                <a className="">{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
+          </a>
+        </Link>
+        <h2 className="text-center">
+          <Link href="/" legacyBehavior>
+            <a className="">{name}</a>
+          </Link>
+        </h2>
       </header>
+      <Header siteTitle={siteTitle} />
       <main>{children}</main>
-      {!home && (
-        <div className="mt-20px text-#66b1ff">
+      {isPost && (
+        <div className="mt-20px text-#66b1ff flex justify-end">
           <Link href="/" legacyBehavior>
             <a>← 返回首页</a>
           </Link>

@@ -13,7 +13,7 @@ import 'highlight.js/styles/atom-one-dark-reasonable.css'
 
 export default function Post({ postData }) {
   return (
-    <Layout>
+    <>
       <Head>
         <title>{postData.title}</title>
       </Head>
@@ -48,7 +48,7 @@ export default function Post({ postData }) {
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />
       </div>
-    </Layout>
+    </>
   )
 }
 
