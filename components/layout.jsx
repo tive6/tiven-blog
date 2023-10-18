@@ -8,6 +8,7 @@ import { useMemo } from 'react'
 const name = 'Tiven'
 export const siteTitle = '天问博客'
 export const picSrc = 'https://placekitten.com/g/350/350'
+// https://tiven.cn/logo.png
 
 export default function Layout({ children }) {
   const { pathname } = useRouter()
