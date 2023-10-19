@@ -38,11 +38,16 @@ export default async function GET(req, res) {
       res.end(buffer)
     } else {
       const img = await sharp(buffer, {
-        density: 100,
+        density: 1000,
       })
-        .png({
-          // palette: true,
+        .withMetadata({
+          density: 1000,
           quality: 100,
+        })
+        .png({
+          palette: true,
+          quality: 100,
+          compressionLevel: 3,
         })
         .resize({
           width: +w,
