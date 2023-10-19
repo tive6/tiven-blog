@@ -93,9 +93,9 @@ function getErrorHtml(err) {
         <img src="${publicPath}/640/320" alt="tiven-img"> 
       </li>
       <li>
-        自定义内容：<a href="${publicPath}/400/200?bg=palevioletred&color=purple&text=hello&size=30">${publicPath}/400/200?bg=palevioletred&color=purple&text=hello&size=30</a>
+        自定义内容：<a href="${publicPath}/400/200?bg=palevioletred&color=purple&text=React&size=30">${publicPath}/400/200?bg=palevioletred&color=purple&text=React&size=30</a>
         <br>
-        <img src="${publicPath}/400/200?bg=palevioletred&color=purple&text=hello&size=30" alt="tiven-img">  
+        <img src="${publicPath}/400/200?bg=palevioletred&color=purple&text=React&size=30" alt="tiven-img">  
       </li>
       </ol>
       <table border="1" borderColor="#ddd">
