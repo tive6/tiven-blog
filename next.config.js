@@ -45,11 +45,11 @@ module.exports = (phase, { defaultConfig }) => {
     },
     async rewrites() {
       return [
-        // {
-        //   source: '/:path*',
-        //   destination: 'https://next-blog.tiven.cn/:path*',
-        //   basePath: false,
-        // },
+        {
+          source: '/api/phold/:path*',
+          destination: 'https://next-blog.tiven.cn/phold/:path*',
+          basePath: false,
+        },
       ]
     },
     async headers() {

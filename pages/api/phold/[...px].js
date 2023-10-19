@@ -41,23 +41,7 @@ export default async function GET(req, res) {
     res.writeHead(200, {
       'Content-Type': 'text/html; charset=utf-8',
     })
-    let basePath = process.env.BASE_PATH
-    console.log(basePath)
-    res.end(`
-    <div>
-      <h1>Not Found</h1>
-      <p>${e.toString()}</p>
-      <p>URL格式如下：</p>
-      <ol>
-      <li>
-        默认：<a href="${basePath}/api/phold/200/200">/api/phold/200/200</a> 
-      </li>
-      <li>
-        自定义：<a href="${basePath}/api/phold/400/200?bg=fff&color=red&text=hello&size=30">/api/phold/400/200?bg=fff&color=red&text=hello&size=30</a> 
-      </li>
-      </ol>
-    </div>
-    `)
+    res.end(getErrorHtml(e))
   }
 }
 
@@ -74,4 +58,70 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     fill-opacity="1">${text}</text>
 </svg>`
   return new Buffer(svg)
+}
+
+function getErrorHtml(err) {
+  let basePath = process.env.BASE_PATH
+  console.log(basePath)
+  let publicPath = `${basePath}/api/phold`
+  return `
+    <style>
+      code {
+        color: #98c379;
+      }
+      table {
+        border-collapse: collapse;
+        width: 600px;
+      }
+      th, td {
+        padding: 5px 10px;
+        text-align: left;
+      }
+    </style>
+    <div>
+      <h1>URL 地址异常</h1>
+      <p>URL格式参考如下：</p>
+      <ol>
+      <li>
+        默认：<a href="${publicPath}/200/200">${publicPath}/200/200</a>
+        <br>
+        <img src="${publicPath}/200/200" alt="tiven-img"> 
+      </li>
+      <li>
+        自定义大小：<a href="${publicPath}/640/320">${publicPath}/640/320</a>
+        <br>
+        <img src="${publicPath}/640/320" alt="tiven-img"> 
+      </li>
+      <li>
+        自定义内容：<a href="${publicPath}/400/200?bg=palevioletred&color=purple&text=hello&size=30">${publicPath}/400/200?bg=palevioletred&color=purple&text=hello&size=30</a>
+        <br>
+        <img src="${publicPath}/400/200?bg=palevioletred&color=purple&text=hello&size=30" alt="tiven-img">  
+      </li>
+      </ol>
+      <table border="1" borderColor="#ddd">
+      <tr>
+      <th>参数</th>
+      <th>作用</th>
+      </tr>
+      <tr>
+      <td>bg</td>
+      <td>背景色，默认：<code>#ccc</code></td>
+      </tr>
+      <tr>
+      <td>color</td>
+      <td>文字颜色，默认：<code>#666</code></td>
+      </tr>
+      <tr>
+      <td>text</td>
+      <td>文字，默认：<code>200x200</code> ( width x height )</td>
+      </tr>
+      <tr>
+      <td>size</td>
+      <td>文字大小，默认：<code>32</code></td>
+      </tr>
+      </table>
+      <p><b>bg</b>，<b>color</b> 颜色参数可以传 <u>hex类型</u> 的值：<code>50A6EE</code>，<code>f00</code>；</p>
+      <p>也可以传表示颜色的 <u>英文单词</u> ：<code>red</code>、<code>pink</code>、<code>red</code>等。</p>
+    </div>
+    `
 }
