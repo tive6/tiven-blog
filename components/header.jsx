@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useStore } from '@/store'
+
 export default function Header({ siteTitle }) {
+  const store = useStore()
+
   return (
     <>
       <Head>
@@ -20,6 +24,7 @@ export default function Header({ siteTitle }) {
           </a>{' '}
           ]
         </p>
+        <p className="text-red">Count: {store.count}</p>
         <div className="flex justify-center items-center my-20px">
           <Link href="/" legacyBehavior>
             <a className="text-#66b1ff">首页</a>
