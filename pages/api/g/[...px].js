@@ -41,7 +41,7 @@ export default async function GET(req, res) {
         density: 100,
       })
         .png({
-          palette: true,
+          // palette: true,
           quality: 100,
         })
         .resize({
