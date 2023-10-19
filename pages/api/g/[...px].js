@@ -71,7 +71,7 @@ function getErrorHtml() {
   return `
     <head>
       <link rel="icon" href="${basePath}/favicon.ico">
-      <title>img 占位图</title>
+      <title>自定义占位图</title>
       <style>
       code {
         color: #98c379;
