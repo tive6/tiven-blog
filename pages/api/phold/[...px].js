@@ -41,7 +41,7 @@ export default async function GET(req, res) {
     res.writeHead(200, {
       'Content-Type': 'text/html; charset=utf-8',
     })
-    res.end(getErrorHtml(e))
+    res.end(getErrorHtml())
   }
 }
 
@@ -60,12 +60,15 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
   return new Buffer(svg)
 }
 
-function getErrorHtml(err) {
+function getErrorHtml() {
   let basePath = process.env.BASE_PATH
   console.log(basePath)
   let publicPath = `${basePath}/api/phold`
   return `
-    <style>
+    <head>
+      <link rel="icon" href="/web/favicon.ico">
+      <title>img 占位图</title>
+      <style>
       code {
         color: #98c379;
       }
@@ -77,7 +80,8 @@ function getErrorHtml(err) {
         padding: 5px 10px;
         text-align: left;
       }
-    </style>
+      </style>
+    </head>
     <div>
       <h1>URL 地址异常</h1>
       <p>URL格式参考如下：</p>
