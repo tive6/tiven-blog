@@ -3,6 +3,9 @@ const UnoCSS = require('@unocss/webpack').default
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
 // const isProd = process.env.NODE_ENV === 'production'
 
+const basePath = process.env.BASE_PATH || ''
+console.log({ basePath })
+
 module.exports = (phase, { defaultConfig }) => {
   // console.log(phase, defaultConfig)
   let isDev = phase === PHASE_DEVELOPMENT_SERVER
@@ -12,7 +15,7 @@ module.exports = (phase, { defaultConfig }) => {
   }
   /** @type {import('next').NextConfig} */
   const nextConfig = {
-    basePath: '/web',
+    basePath,
     // trailingSlash: true, //  /about -> /about/
     // Use the CDN in production and localhost for development.
     // assetPrefix: isProd ? 'https://cdn.mydomain.com' : '',

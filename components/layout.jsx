@@ -10,6 +10,8 @@ export const siteTitle = '天问博客'
 export const picSrc = 'https://placekitten.com/g/350/350'
 // https://tiven.cn/logo.png
 
+const basePath = process.env.BASE_PATH || ''
+
 export default function Layout({ children }) {
   const { pathname } = useRouter()
   // console.log({ pathname })
@@ -22,7 +24,7 @@ export default function Layout({ children }) {
   return (
     <div className="w-680px mx-auto py-3">
       <Head>
-        <link rel="icon" href="/web/favicon.ico" />
+        <link rel="icon" href={basePath + '/favicon.ico'} />
         <meta
           name="description"
           content="天問的个人网站(天问博客)，专注于Node.js、Vue、React、Svelte、Electron、Tauri、Vite、Nginx等大前端技术。不断学习新技术，记录日常开发问题，持续分享coding，极客开源，共同进步。生命不息，奋斗不止..."

@@ -28,6 +28,10 @@ export default function Header({ siteTitle }) {
           <Link href="/state" legacyBehavior>
             <a className="text-#66b1ff">Zustand 状态管理</a>
           </Link>
+          <div className="w-50px"></div>
+          <Link href="/api/g/a/200" legacyBehavior>
+            <a className="text-#66b1ff">自定义占位图</a>
+          </Link>
         </div>
       </section>
     </>

@@ -63,10 +63,14 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
 function getErrorHtml() {
   let basePath = process.env.BASE_PATH
   console.log(basePath)
-  let publicPath = `${basePath}/api/phold`
+  let publicPath = `${basePath}/api/g`
+  let backHome =
+    process.env.NODE_ENV === 'development'
+      ? `<a style="font-size: 16px;" href="/">← 返回首页</a>`
+      : ''
   return `
     <head>
-      <link rel="icon" href="/web/favicon.ico">
+      <link rel="icon" href="${basePath}/favicon.ico">
       <title>img 占位图</title>
       <style>
       code {
@@ -80,10 +84,18 @@ function getErrorHtml() {
         padding: 5px 10px;
         text-align: left;
       }
+      .back {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
       </style>
     </head>
     <div>
-      <h1>URL 地址异常</h1>
+      <h1 class="back">
+        URL 地址异常
+        ${backHome}
+      </h1>
       <p>URL格式参考如下：</p>
       <ol>
       <li>
