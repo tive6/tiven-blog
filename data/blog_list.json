@@ -1,6 +1,20 @@
 {
   "list": [
     {
+      "title": "Next.js和sharp实现占位图片生成工具",
+      "tags": [
+        "Node",
+        "NextJS"
+      ],
+      "categories": [
+        "Node"
+      ],
+      "abbrlink": "aa610ce5",
+      "date": "2023-10-20T17:23:08.000Z",
+      "fileName": "Next-js和sharp实现占位图片生成工具.md",
+      "id": "aa610ce5"
+    },
+    {
       "title": "axios / fetch 实现 stream 流式请求",
       "tags": [
         "Node",
@@ -121,6 +135,7 @@
     }
   ],
   "map": {
+    "aa610ce5": "Next-js和sharp实现占位图片生成工具.md",
     "de821c2f": "Vue3学习与实战之Vuex状态管理.md",
     "7f7ba3b2": "Vue3学习与实战之全局挂载使用Axios.md",
     "4c07e342": "Vue3学习与实战之操作DOM.md",
