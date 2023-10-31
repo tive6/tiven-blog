@@ -83,7 +83,7 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     style="font-family:Verdana, Arial, lobster, Helvetica,fantasy,fangsong,monospace,emoji,'Gill Sans',system-ui,serif,Georgia,Times,'Times New Roman','黑体','STXingkai';" 
     fill-opacity="1">${text}</text>
 </svg>`
-  return new Buffer(svg)
+  return Buffer.from(svg, 'utf8')
 }
 
 function getErrorHtml() {
