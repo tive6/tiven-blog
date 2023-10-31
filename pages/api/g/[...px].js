@@ -80,7 +80,6 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     <text x="50%" y="${textY}" 
     dominant-baseline="alphabetic" text-anchor="middle" 
     fill="none" stroke="${color}" font-size="${size}" 
-    style="font-family: Arial, Verdana, lobster, Helvetica,fantasy,fangsong,monospace,emoji,'Gill Sans',system-ui,serif,Georgia,Times,'Times New Roman','黑体','STXingkai';" 
     fill-opacity="1">${text}</text>
 </svg>`
   return Buffer.from(svg, 'utf8')
