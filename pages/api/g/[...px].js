@@ -44,22 +44,25 @@ export default async function GET(req, res) {
           density: 1000,
           quality: 100,
         })
-        .png({
-          palette: true,
-          quality: 100,
-          compressionLevel: 3,
-        })
+        // .png({
+        //   palette: true,
+        //   quality: 100,
+        //   compressionLevel: 3,
+        // })
         .resize({
           width: +w,
           height: +h,
           fit: 'contain',
           // background: bgStr,
         })
+        .raw()
+        .toFormat('png')
         .toBuffer()
       res.writeHead(200, {
         'Access-Control-Allow-Origin': '*',
         // 'Content-Type': 'image/svg+xml',
       })
+      // console.log(img)
       res.end(img)
     }
   } catch (e) {
