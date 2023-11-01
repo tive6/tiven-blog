@@ -76,8 +76,9 @@ export default async function GET(req, res) {
 
 function getSvgBuffer({ w, h, bg, color, size, text }) {
   let textY = (+h + size / 2) / 2
-  let svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1"
-     width="${w}" height="${h}">
+  let svg = `<?xml version="1.0" encoding="UTF-8"?>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+    width="${w}" height="${h}">
     <rect width="${w}" height="${h}"
     fill="${bg}" style="fill:${bg};"/>
     <text x="50%" y="${textY}" 
