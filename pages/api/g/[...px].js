@@ -1,5 +1,9 @@
 import sharp from 'sharp'
 const colorString = require('color-string')
+import { resolve } from 'path'
+
+resolve(process.cwd(), 'fonts', 'fonts.conf')
+resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
 
 // export const dynamic = 'auto'
 // export const dynamicParams = true
@@ -33,7 +37,7 @@ export default async function GET(req, res) {
     if (type === 'svg') {
       res.writeHead(200, {
         'Access-Control-Allow-Origin': '*',
-        'Content-Type': 'image/svg+xml',
+        'Content-Type': 'image/svg+xml; charset=utf-8',
       })
       res.end(buffer)
     } else {
@@ -60,7 +64,7 @@ export default async function GET(req, res) {
         .toBuffer()
       res.writeHead(200, {
         'Access-Control-Allow-Origin': '*',
-        // 'Content-Type': 'image/svg+xml',
+        'Content-Type': 'charset=utf-8',
       })
       // console.log(img)
       res.end(img)
@@ -79,9 +83,16 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
   let svg = `<?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
     width="${w}" height="${h}">
+    <style type="text/css">
+      @font-face {
+        font-family: NerdFontMono;
+        src: './fonts/NerdFontMono-Regular.ttf';
+      }
+    </style>
     <rect width="${w}" height="${h}"
     fill="${bg}" style="fill:${bg};"/>
     <text x="50%" y="${textY}" 
+    font-family="NerdFontMono"
     dominant-baseline="alphabetic" text-anchor="middle" 
     fill="none" stroke="${color}" font-size="${size}" 
     fill-opacity="1">${text}</text>
