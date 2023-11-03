@@ -3,7 +3,7 @@ const colorString = require('color-string')
 import { resolve } from 'path'
 
 resolve(process.cwd(), 'fonts', 'fonts.conf')
-resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
+// resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
 let fontsPath = resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
 // let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
 
@@ -86,12 +86,6 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
   let svg = `
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
     width="${w}" height="${h}">
-    <style type="text/css">
-      @font-face {
-        font-family: Noto;
-        src: 'url(${fontsPath})';
-      }
-    </style>
     <rect width="${w}" height="${h}"
     fill="${bg}" style="fill:${bg};"/>
     <text x="50%" y="${textY}" 

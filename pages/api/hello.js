@@ -41,3 +41,9 @@ export default function Api(req, res) {
 //   .toBuffer()
 
 // Simplified Chinese
+// <style type="text/css">
+//   @font-face {
+//     font-family: Noto;
+//   src: 'url(${fontsPath})';
+// }
+// </style>
