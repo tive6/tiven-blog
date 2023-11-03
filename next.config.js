@@ -2,6 +2,7 @@
 const UnoCSS = require('@unocss/webpack').default
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
 // const isProd = process.env.NODE_ENV === 'production'
+const CopyPlugin = require('copy-webpack-plugin')
 
 const basePath = process.env.BASE_PATH || ''
 console.log({ basePath })
@@ -44,6 +45,11 @@ module.exports = (phase, { defaultConfig }) => {
     webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
       config.cache = false
       config.plugins.push(UnoCSS())
+      if (!dev) {
+        config.plugins.push(
+          new CopyPlugin({ patterns: [{ from: 'fonts', to: 'fonts' }] })
+        )
+      }
       return config
     },
     async rewrites() {

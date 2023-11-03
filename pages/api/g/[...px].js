@@ -2,8 +2,10 @@ import sharp from 'sharp'
 const colorString = require('color-string')
 import { resolve } from 'path'
 
-resolve(process.cwd(), 'fonts', 'fonts.conf')
-resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
+let fp = resolve(process.cwd(), 'fonts', 'fonts.conf')
+let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
+console.log(fp)
+console.log(fpt)
 
 // export const dynamic = 'auto'
 // export const dynamicParams = true
