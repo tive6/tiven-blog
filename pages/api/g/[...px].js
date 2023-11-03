@@ -79,6 +79,7 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     <rect width="${w}" height="${h}"
     fill="${bg}" style="fill:${bg};"/>
     <text x="50%" y="${textY}" 
+    style="font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;"
     dominant-baseline="alphabetic" text-anchor="middle" 
     stroke="none" stroke-width="0" 
     font-size="${size}" fill="${color}" 
