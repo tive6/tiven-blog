@@ -2,15 +2,8 @@ import sharp from 'sharp'
 const colorString = require('color-string')
 import { resolve } from 'path'
 
-// resolve(process.cwd(), 'fonts', 'fonts.conf')
+resolve(process.cwd(), 'fonts', 'fonts.conf')
 resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
-
-// export const dynamic = 'auto'
-// export const dynamicParams = true
-// export const revalidate = false
-// export const fetchCache = 'auto'
-// export const runtime = 'nodejs'
-// export const preferredRegion = 'auto'
 
 export default async function GET(req, res) {
   try {

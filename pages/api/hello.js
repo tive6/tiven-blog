@@ -1,3 +1,10 @@
+// export const dynamic = 'auto'
+// export const dynamicParams = true
+// export const revalidate = false
+// export const fetchCache = 'auto'
+// export const runtime = 'nodejs'
+// export const preferredRegion = 'auto'
+
 export default function Api(req, res) {
   res.status(200).json({ text: 'Hello' })
   // res.send(img)
