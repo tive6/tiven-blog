@@ -2,11 +2,9 @@ import sharp from 'sharp'
 const colorString = require('color-string')
 import { resolve } from 'path'
 
-let fp = resolve(process.cwd(), 'fonts', 'fonts.conf')
-let fpt = resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
+resolve(process.cwd(), 'fonts', 'fonts.conf')
+let fontsPath = resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
 // let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
-console.log(fp)
-console.log(fpt)
 
 // export const dynamic = 'auto'
 // export const dynamicParams = true
@@ -83,13 +81,14 @@ export default async function GET(req, res) {
 
 function getSvgBuffer({ w, h, bg, color, size, text }) {
   let textY = (+h + size / 2) / 2
-  let svg = `<?xml version="1.0" encoding="UTF-8"?>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+  console.log('fontsPath:', fontsPath)
+  let svg = `
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
     width="${w}" height="${h}">
     <style type="text/css">
       @font-face {
         font-family: NerdFontMono;
-        src: 'fonts/Arial Bold.ttf';
+        src: 'url(${fontsPath})';
       }
     </style>
     <rect width="${w}" height="${h}"
@@ -100,8 +99,10 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     fill="${color}" font-size="${size}" 
     fill-opacity="1">${text}</text>
 </svg>`
+  svg = '<?xml version="1.0" encoding="UTF-8"?>' + svg
   console.log(svg)
   console.log(process.cwd())
+  console.log(process.env.FONTCONFIG_PATH)
   return Buffer.from(svg, 'utf-8')
 }
 
