@@ -46,9 +46,9 @@ module.exports = (phase, { defaultConfig }) => {
       config.cache = false
       config.plugins.push(UnoCSS())
       if (!dev) {
-        config.plugins.push(
-          new CopyPlugin({ patterns: [{ from: 'fonts', to: 'fonts' }] })
-        )
+        // config.plugins.push(
+        //   new CopyPlugin({ patterns: [{ from: 'fonts', to: 'fonts' }] })
+        // )
       }
       return config
     },

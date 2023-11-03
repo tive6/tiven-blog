@@ -4,9 +4,6 @@ import { resolve } from 'path'
 
 resolve(process.cwd(), 'fonts', 'fonts.conf')
 resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
-// resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
-// let fontsPath = resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
-// let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
 
 // export const dynamic = 'auto'
 // export const dynamicParams = true
@@ -83,7 +80,6 @@ export default async function GET(req, res) {
 
 function getSvgBuffer({ w, h, bg, color, size, text }) {
   let textY = (+h + size / 2) / 2
-  // console.log('fontsPath:', fontsPath)
   let svg = `
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
     width="${w}" height="${h}">
@@ -92,11 +88,11 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     <text x="50%" y="${textY}" 
     style="font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;"
     dominant-baseline="alphabetic" text-anchor="middle" 
-    fill="${color}" font-size="${size}" 
+    stroke="none" stroke-width="0" 
+    font-size="${size}" fill="${color}" 
     fill-opacity="1">${text}</text>
 </svg>`
   svg = '<?xml version="1.0" encoding="UTF-8"?>' + svg
-  console.log(svg)
   console.log(process.cwd())
   console.log(process.env.FONTCONFIG_PATH)
   return Buffer.from(svg, 'utf-8')
@@ -104,7 +100,6 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
 
 function getErrorHtml() {
   let basePath = process.env.BASE_PATH
-  console.log(basePath)
   let publicPath = `${basePath}/api/g`
   let backHome =
     process.env.NODE_ENV === 'development'
