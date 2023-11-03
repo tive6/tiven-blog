@@ -89,7 +89,7 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     <style type="text/css">
       @font-face {
         font-family: NerdFontMono;
-        src: './fonts/NerdFontMono-Regular.ttf';
+        src: 'fonts/Arial Bold.ttf';
       }
     </style>
     <rect width="${w}" height="${h}"
