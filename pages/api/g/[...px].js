@@ -2,7 +2,7 @@ import sharp from 'sharp'
 const colorString = require('color-string')
 import { resolve } from 'path'
 
-resolve(process.cwd(), 'fonts', 'fonts.conf')
+// resolve(process.cwd(), 'fonts', 'fonts.conf')
 resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
 
 // export const dynamic = 'auto'
@@ -86,7 +86,6 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     <rect width="${w}" height="${h}"
     fill="${bg}" style="fill:${bg};"/>
     <text x="50%" y="${textY}" 
-    style="font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;"
     dominant-baseline="alphabetic" text-anchor="middle" 
     stroke="none" stroke-width="0" 
     font-size="${size}" fill="${color}" 

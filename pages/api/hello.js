@@ -41,6 +41,7 @@ export default function Api(req, res) {
 //   .toBuffer()
 
 // Simplified Chinese
+// style = "font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;"
 // <style type="text/css">
 //   @font-face {
 //     font-family: Noto;
