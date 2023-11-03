@@ -1,9 +1,9 @@
 // next.config.js
 const UnoCSS = require('@unocss/webpack').default
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
-// const isProd = process.env.NODE_ENV === 'production'
-const CopyPlugin = require('copy-webpack-plugin')
+// const CopyPlugin = require('copy-webpack-plugin')
 
+// const isProd = process.env.NODE_ENV === 'production'
 const basePath = process.env.BASE_PATH || ''
 console.log({ basePath })
 
@@ -54,11 +54,11 @@ module.exports = (phase, { defaultConfig }) => {
     },
     async rewrites() {
       return [
-        {
-          source: '/api/phold/:path*',
-          destination: 'https://next-blog.tiven.cn/phold/:path*',
-          basePath: false,
-        },
+        // {
+        // source: '/api/g/:path*',
+        // destination: '/g/:path*',
+        // basePath: false,
+        // },
       ]
     },
     async headers() {
