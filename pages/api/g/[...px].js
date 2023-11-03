@@ -3,6 +3,7 @@ const colorString = require('color-string')
 import { resolve } from 'path'
 
 resolve(process.cwd(), 'fonts', 'fonts.conf')
+resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
 // resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
 // let fontsPath = resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
 // let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
