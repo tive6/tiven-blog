@@ -39,3 +39,5 @@ export default function Api(req, res) {
 //     background: `#${bg}`,
 //   })
 //   .toBuffer()
+
+// Simplified Chinese
