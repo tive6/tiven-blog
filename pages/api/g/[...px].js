@@ -97,10 +97,11 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     <text x="50%" y="${textY}" 
     font-family="NerdFontMono"
     dominant-baseline="alphabetic" text-anchor="middle" 
-    fill="none" stroke="${color}" font-size="${size}" 
+    fill="${color}" font-size="${size}" 
     fill-opacity="1">${text}</text>
 </svg>`
   console.log(svg)
+  console.log(process.cwd())
   return Buffer.from(svg, 'utf8')
 }
 
