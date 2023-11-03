@@ -3,7 +3,8 @@ const colorString = require('color-string')
 import { resolve } from 'path'
 
 let fp = resolve(process.cwd(), 'fonts', 'fonts.conf')
-let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
+let fpt = resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
+// let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
 console.log(fp)
 console.log(fpt)
 
