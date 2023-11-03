@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 resolve(process.cwd(), 'fonts', 'fonts.conf')
 // resolve(process.cwd(), 'fonts', 'Arial Bold.ttf')
-let fontsPath = resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
+// let fontsPath = resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
 // let fpt = resolve(process.cwd(), 'fonts', 'NerdFontMono-Regular.ttf')
 
 // export const dynamic = 'auto'
@@ -82,7 +82,7 @@ export default async function GET(req, res) {
 
 function getSvgBuffer({ w, h, bg, color, size, text }) {
   let textY = (+h + size / 2) / 2
-  console.log('fontsPath:', fontsPath)
+  // console.log('fontsPath:', fontsPath)
   let svg = `
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
     width="${w}" height="${h}">
