@@ -102,7 +102,7 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
 </svg>`
   console.log(svg)
   console.log(process.cwd())
-  return Buffer.from(svg, 'utf8')
+  return Buffer.from(svg, 'utf-8')
 }
 
 function getErrorHtml() {
