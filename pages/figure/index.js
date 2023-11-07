@@ -78,8 +78,8 @@ export default function Page() {
   return (
     <div className="w-400px mx-auto">
       <div
-        className="w-400px mx-auto flex justify-center"
-        style={{ paddingBottom: '20px' }}
+        className="max-w-100% mx-auto flex justify-center"
+        style={{ paddingBottom: '20px', minHeight: '200px' }}
       >
         <Image
           style={{ margin: '0 auto', display: 'block', maxWidth: '100%' }}
@@ -138,12 +138,14 @@ export default function Page() {
         </Form.Item>
       </Form>
       <div
-        style={{ padding: '0 35%', justifyContent: 'center' }}
+        style={{ padding: '0 35%', justifyContent: 'space-between' }}
         className="flex items-center"
       >
-        {/*<Button type="primary">生成</Button>*/}
         <Button type="primary" onClick={download}>
           下载
+        </Button>
+        <Button type="link" target="_blank" href={imgSrc}>
+          单独打开
         </Button>
       </div>
     </div>
