@@ -115,7 +115,7 @@ export default function Page() {
           </Form.Item>
         </div>
         <Form.Item label="size" name="size" tooltip="文本大小">
-          <Input placeholder="请输入" />
+          <Input type="number" placeholder="请输入" />
         </Form.Item>
         <Form.Item label="type" name="type" tooltip="占位图类型">
           <Select options={typeList} placeholder="请选择问题意图ID" />
