@@ -1,17 +1,13 @@
 // uno.config.ts
-import {
-  defineConfig,
-  presetAttributify,
-  presetTypography,
-  presetIcons,
-  presetUno,
-  presetWebFonts
-} from 'unocss'
+import { defineConfig, presetTypography, presetUno } from 'unocss'
+// import presetWind from '@unocss/preset-wind'
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetUno({
+      // preflight: false,
+    }),
     presetTypography(),
     // ...
-  ]
-});
+  ],
+})

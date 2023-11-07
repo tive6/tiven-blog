@@ -29,13 +29,17 @@ export default function Header({ siteTitle }) {
           <Link href="/" legacyBehavior>
             <a className="text-#66b1ff">首页</a>
           </Link>
-          <div className="w-50px"></div>
+          <div className="w-20px"></div>
           <Link href="/state" legacyBehavior>
             <a className="text-#66b1ff">Zustand 状态管理</a>
           </Link>
-          <div className="w-50px"></div>
+          <div className="w-20px"></div>
           <Link href="/api/g/a/200" legacyBehavior>
             <a className="text-#66b1ff">自定义占位图</a>
+          </Link>
+          <div className="w-20px"></div>
+          <Link href="/figure" legacyBehavior>
+            <a className="text-#66b1ff">占位图在线生成</a>
           </Link>
         </div>
       </section>

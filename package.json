@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "predev": "rm -rf .next",
     "dev": "next dev -p 3000",
     "build": "next build --profile",
     "start": "next start -p 3000",
@@ -14,6 +15,8 @@
     "gen": "node ./scripts/gen-blog-list.js"
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.17.2",
+    "antd": "^5.11.0",
     "axios": "^1.5.0",
     "color": "^4.2.3",
     "color-string": "^1.9.1",

@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import Header from '@/components/header'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
+import Header from '@/components/header'
 
 const name = 'Tiven'
 export const siteTitle = '天问博客'

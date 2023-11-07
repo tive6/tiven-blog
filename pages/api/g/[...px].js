@@ -57,7 +57,7 @@ export default async function GET(req, res) {
         .toBuffer()
       res.writeHead(200, {
         'Access-Control-Allow-Origin': '*',
-        'Content-Type': 'charset=utf-8',
+        // 'Content-Type': 'text/plain; charset=utf-8',
       })
       // console.log(img)
       res.end(img)
