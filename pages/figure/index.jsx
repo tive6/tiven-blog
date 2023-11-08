@@ -2,8 +2,8 @@ import { Button, ColorPicker, Image, Form, Input, Select } from 'antd'
 import { useEffect, useState } from 'react'
 
 const defaultData = {
-  width: 200,
-  height: 200,
+  width: 800,
+  height: 450,
   bg: 'ccc',
   color: '666',
   text: '',
@@ -27,7 +27,7 @@ const typeList = [
 ]
 
 const publicPath = '/api/g'
-const defaultPath = '/api/g/200/200'
+const defaultPath = '/api/g/800/450'
 
 export default function Page() {
   const [form] = Form.useForm()

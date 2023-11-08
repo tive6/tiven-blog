@@ -92,7 +92,6 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     fill-opacity="1">${text}</text>
 </svg>`
   svg = '<?xml version="1.0" encoding="UTF-8"?>' + svg
-  console.log(svg)
   console.log(process.cwd())
   console.log(process.env.FONTCONFIG_PATH)
   return Buffer.from(svg, 'utf-8')
