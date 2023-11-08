@@ -46,11 +46,8 @@ export default function Page() {
       query.append(key, value)
     })
     query.delete('text')
-    if (text) {
-      query.append('text', text)
-    } else {
-      query.append('text', `${width} x ${height}`)
-    }
+    text = text?.trim() ? text.trim() : `${width} x ${height}`
+    query.append('text', encodeURIComponent(text))
     let p = query.toString()
     console.log(p)
     setQueryURL(p)
@@ -76,7 +73,7 @@ export default function Page() {
   }, [])
 
   return (
-    <div className="w-400px mx-auto">
+    <div className="mx-auto">
       <div
         className="max-w-100% mx-auto flex justify-center"
         style={{ paddingBottom: '20px', minHeight: '200px' }}

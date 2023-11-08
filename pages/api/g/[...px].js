@@ -5,12 +5,17 @@ import { resolve } from 'path'
 resolve(process.cwd(), 'fonts', 'fonts.conf')
 resolve(process.cwd(), 'fonts', 'NotoSansSC-Regular.ttf')
 
+const isDev = process.env.NODE_ENV === 'development'
+
 export default async function GET(req, res) {
   try {
     let { px, text, bg, color, size, type } = req.query
     console.log(req.query)
     let [w, h] = px?.length >= 2 ? px : [200, 200]
-    text = text || `${w} x ${h}`
+    console.log(text)
+    text = decodeURIComponent(text) || `${w} x ${h}`
+    text = text.replace(/&/g, '&amp;')
+    console.log({ text })
     bg = bg || 'ccc'
     color = color || '666'
     size = size || 32
@@ -63,11 +68,12 @@ export default async function GET(req, res) {
       res.end(img)
     }
   } catch (e) {
+    console.log(e)
     res.writeHead(200, {
       'Access-Control-Allow-Origin': '*',
       'Content-Type': 'text/html; charset=utf-8',
     })
-    res.end(getErrorHtml())
+    res.end(getErrorHtml(e))
   }
 }
 
@@ -86,18 +92,21 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
     fill-opacity="1">${text}</text>
 </svg>`
   svg = '<?xml version="1.0" encoding="UTF-8"?>' + svg
+  console.log(svg)
   console.log(process.cwd())
   console.log(process.env.FONTCONFIG_PATH)
   return Buffer.from(svg, 'utf-8')
 }
 
-function getErrorHtml() {
+function getErrorHtml(e) {
   let basePath = process.env.BASE_PATH
   let publicPath = `${basePath}/api/g`
-  let backHome =
-    process.env.NODE_ENV === 'development'
-      ? `<a style="font-size: 16px;" href="/">← 返回首页</a>`
-      : ''
+  let backHome = isDev
+    ? `<a style="font-size: 16px;" href="/">← 返回首页</a>`
+    : ''
+  let errorDesc = isDev
+    ? `<p style="color: #666;">错误详情：${e.message}</p>`
+    : ''
   return `
     <head>
       <link rel="icon" href="${basePath}/favicon.ico">
@@ -133,6 +142,7 @@ function getErrorHtml() {
         URL 地址异常
         ${backHome}
       </h1>
+      ${errorDesc}
       <p>URL格式参考如下：</p>
       <ol>
       <li>
@@ -184,6 +194,7 @@ function getErrorHtml() {
       </table>
       <p><b>bg</b>，<b>color</b> 颜色参数可以传 <u>hex类型</u> 的值：<code>50A6EE</code>，<code>f00</code>；</p>
       <p>也可以传表示颜色的 <u>英文单词</u> ：<code>red</code>、<code>pink</code>、<code>red</code>等。</p>
+      <p style="font-size: 20px;">在线生成：<a href="/figure" target="_blank" title="在线生成">所见即所得</a></p>
       <p style="font-size: 20px;">完整技术实现博客：<a href="https://tiven.cn/p/aa610ce5/" target="_blank" title="Next.js和sharp实现占位图片生成工具">Next.js和sharp实现占位图片生成工具</a></p>
     </div>
     `

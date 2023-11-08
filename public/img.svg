@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+     width="800" height="450">
+    <rect width="800" height="450"
+          fill="#CCCCCC" style="fill:#CCCCCC;"/>
+    <text x="50%" y="233"
+          style="font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;"
+          dominant-baseline="alphabetic"
+          text-anchor="middle"
+          stroke="none" stroke-width="0"
+          font-size="32" fill="#666666"
+          fill-opacity="1">
+        js中 ||=、&amp;&amp;=、??=、?.、?? 运算符
+    </text>
+</svg>

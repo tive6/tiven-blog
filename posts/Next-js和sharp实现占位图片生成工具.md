@@ -1,10 +1,10 @@
 ---
 title: Next.js和sharp实现占位图片生成工具
 tags:
-- Node
-- NextJS
+  - Node
+  - NextJS
 categories:
-- Node
+  - Node
 abbrlink: aa610ce5
 date: 2023-10-20 17:23:08
 ---
@@ -13,11 +13,11 @@ date: 2023-10-20 17:23:08
 
 ![占位图片生成工具](https://tiven.cn/static/img/21333-s0Iv2dcT.jpg)
 
-[//]: # (![占位图片生成工具]&#40;https://next-blog.tiven.cn/api/g/800/450?type=svg&bg=FEDC9B&text=%E5%8D%A0%E4%BD%8D%E5%9B%BE%E7%89%87%E7%94%9F%E4%BA%A7%E5%B7%A5%E5%85%B7&#41;)
+[//]: # "![占位图片生成工具](https://next-blog.tiven.cn/api/g/800/450?type=svg&bg=FEDC9B&text=%E5%8D%A0%E4%BD%8D%E5%9B%BE%E7%89%87%E7%94%9F%E4%BA%A7%E5%B7%A5%E5%85%B7)"
 
-
-* 上链接🔗：[https://next-blog.tiven.cn/api/g/400/200](https://next-blog.tiven.cn/api/g/400/200 "占位图片生成工具")，展示效果如上
-* 使用文档🔗：[自定义占位图片生成工具使用文档](https://next-blog.tiven.cn/api/g/a/200 "占位图片生成工具使用文档")
+- 上链接🔗：[https://next-blog.tiven.cn/api/g/400/200](https://next-blog.tiven.cn/api/g/400/200 "占位图片生成工具")，展示效果如上
+- 在线生成🔗：[https://next-blog.tiven.cn/figure](https://next-blog.tiven.cn/figure "占位图在线生成工具")
+- 使用文档🔗：[自定义占位图片生成工具使用文档](https://next-blog.tiven.cn/api/g/a/200 "占位图片生成工具使用文档")
 
 ## 一、占位图片生成工具的作用
 
@@ -56,8 +56,8 @@ cd placeholder-image-generator
 ```js
 // pages/api/g/[...px].js
 
-import sharp from 'sharp'
-const colorString = require('color-string')
+import sharp from "sharp";
+const colorString = require("color-string");
 
 export default async function handler(req, res) {
   try {
@@ -67,15 +67,15 @@ export default async function handler(req, res) {
     // 处理参数并设置默认值
     let [w, h] = px?.length >= 2 ? px : [200, 200];
     text = text || `${w} x ${h}`;
-    bg = bg || 'ccc';
-    color = color || '666';
+    bg = bg || "ccc";
+    color = color || "666";
     size = size || 32;
 
     // 处理颜色参数
     const bgRes = colorString.get(bg) || colorString.get(`#${bg}`);
-    let bgStr = bgRes ? colorString.to.hex(bgRes.value) : '#ccc';
+    let bgStr = bgRes ? colorString.to.hex(bgRes.value) : "#ccc";
     const colorRes = colorString.get(color) || colorString.get(`#${color}`);
-    let colorStr = colorRes ? colorString.to.hex(colorRes.value) : '#666';
+    let colorStr = colorRes ? colorString.to.hex(colorRes.value) : "#666";
 
     // 生成SVG图像
     let ratio = 1;
@@ -89,39 +89,38 @@ export default async function handler(req, res) {
     });
 
     // 根据类型响应不同格式的图像
-    if (type === 'svg') {
-      res.status(200).setHeader('Content-Type', 'image/svg+xml');
+    if (type === "svg") {
+      res.status(200).setHeader("Content-Type", "image/svg+xml");
       res.end(buffer);
     } else {
       const img = await sharp(buffer, {
         density: 1000,
       })
-          .withMetadata({
-            density: 1000,
-            quality: 100,
-          })
-          .png({
-            palette: true,
-            quality: 100,
-            compressionLevel: 3,
-          })
-          .resize({
-            width: +w,
-            height: +h,
-            fit: 'contain',
-          })
-          .toBuffer();
+        .withMetadata({
+          density: 1000,
+          quality: 100,
+        })
+        .png({
+          palette: true,
+          quality: 100,
+          compressionLevel: 3,
+        })
+        .resize({
+          width: +w,
+          height: +h,
+          fit: "contain",
+        })
+        .toBuffer();
 
-      res.status(200).setHeader('Content-Type', 'image/png');
+      res.status(200).setHeader("Content-Type", "image/png");
       res.end(img);
     }
   } catch (e) {
-    res.status(200).setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.status(200).setHeader("Content-Type", "text/html; charset=utf-8");
     res.end(getErrorHtml());
   }
 }
 ```
-
 
 ### 步骤3：生成SVG图像的函数
 
@@ -150,13 +149,13 @@ function getSvgBuffer({ w, h, bg, color, size, text }) {
 
 ```javascript
 function getErrorHtml() {
-  let basePath = process.env.BASE_PATH
-  
-  let publicPath = `${basePath}/api/g`
+  let basePath = process.env.BASE_PATH;
+
+  let publicPath = `${basePath}/api/g`;
   let backHome =
-    process.env.NODE_ENV === 'development'
+    process.env.NODE_ENV === "development"
       ? `<a style="font-size: 16px;" href="/">← 返回首页</a>`
-      : ''
+      : "";
   return `
     <head>
       <link rel="icon" href="${basePath}/favicon.ico">
@@ -245,7 +244,7 @@ function getErrorHtml() {
       <p>也可以传表示颜色的 <u>英文单词</u> ：<code>red</code>、<code>pink</code>、<code>red</code>等。</p>
       <p style="font-size: 20px;">完整技术实现博客：<a href="https://tiven.cn/p/aa610ce5/" target="_blank" title="Next.js和sharp实现占位图片生成工具">Next.js和sharp实现占位图片生成工具</a></p>
     </div>
-    `
+    `;
 }
 ```
 
@@ -266,4 +265,3 @@ npm run dev
 ---
 
 欢迎访问：[天问博客](https://tiven.cn/p/aa610ce5/ "天问博客-专注于大前端技术")
-
