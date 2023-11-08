@@ -9,6 +9,93 @@ export const typeList = [
   },
 ]
 
+export const fontSizeList = [
+  {
+    label: '12',
+    value: 12,
+  },
+  {
+    label: '14',
+    value: 14,
+  },
+  {
+    label: '16',
+    value: 16,
+  },
+  {
+    label: '20',
+    value: 20,
+  },
+  {
+    label: '24',
+    value: 24,
+  },
+  {
+    label: '30',
+    value: 30,
+  },
+  {
+    label: '32',
+    value: 32,
+  },
+  {
+    label: '36',
+    value: 36,
+  },
+  {
+    label: '40',
+    value: 40,
+  },
+  {
+    label: '50',
+    value: 50,
+  },
+  {
+    label: '60',
+    value: 60,
+  },
+  {
+    label: '70',
+    value: 70,
+  },
+  {
+    label: '80',
+    value: 80,
+  },
+  {
+    label: '90',
+    value: 90,
+  },
+  {
+    label: '100',
+    value: 100,
+  },
+  {
+    label: '120',
+    value: 120,
+  },
+  {
+    label: '150',
+    value: 150,
+  },
+  {
+    label: '200',
+    value: 200,
+  },
+  {
+    label: '300',
+    value: 300,
+  },
+  {
+    label: '400',
+    value: 400,
+  },
+  {
+    label: '500',
+    value: 500,
+  },
+]
+
 export const defaultData = {
   width: 800,
   height: 450,

@@ -12,10 +12,8 @@ export default async function GET(req, res) {
     let { px, text, bg, color, size, type } = req.query
     console.log(req.query)
     let [w, h] = px?.length >= 2 ? px : [200, 200]
-    console.log(text)
     text = decodeURIComponent(text) || `${w} x ${h}`
     text = text.replace(/&/g, '&amp;')
-    console.log({ text })
     bg = bg || 'ccc'
     color = color || '666'
     size = size || 32

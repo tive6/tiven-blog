@@ -1,6 +1,11 @@
 import { Button, ColorPicker, Image, Form, Input, Select, Divider } from 'antd'
 import { useEffect, useState } from 'react'
-import { defaultData, presetList, typeList } from '@/common/constants'
+import {
+  defaultData,
+  fontSizeList,
+  presetList,
+  typeList,
+} from '@/common/constants'
 
 const formItemLayout = {
   style: { width: 120, marginBottom: 10 },
@@ -140,7 +145,8 @@ export default function Page() {
         </div>
         <div className="w-100% flex justify-evenly">
           <Form.Item label="size" name="size" tooltip="文本大小">
-            <Input type="number" placeholder="请输入" />
+            <Select options={fontSizeList} placeholder="请选择" />
+            {/*<Input type="number" placeholder="请输入" />*/}
           </Form.Item>
           <Form.Item label="type" name="type" tooltip="占位图类型">
             <Select options={typeList} placeholder="请选择" />
