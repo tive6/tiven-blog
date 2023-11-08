@@ -1,33 +1,59 @@
-import { Button, ColorPicker, Image, Form, Input, Select } from 'antd'
+import { Button, ColorPicker, Image, Form, Input, Select, Divider } from 'antd'
 import { useEffect, useState } from 'react'
-
-const defaultData = {
-  width: 800,
-  height: 450,
-  bg: 'ccc',
-  color: '666',
-  text: '',
-  size: 32,
-  type: 'png',
-}
+import { defaultData, presetList, typeList } from '@/common/constants'
 
 const formItemLayout = {
   style: { width: 120, marginBottom: 10 },
 }
 
-const typeList = [
-  {
-    label: 'png',
-    value: 'png',
-  },
-  {
-    label: 'svg',
-    value: 'svg',
-  },
-]
-
 const publicPath = '/api/g'
 const defaultPath = '/api/g/800/450'
+const ColorCom = ({ value, onChange }) => (
+  <ColorPicker
+    className="w-200px flex justify-start"
+    showText
+    defaultFormat="hex"
+    format="hex"
+    value={value}
+    onChange={onChange}
+    styles={{
+      popupOverlayInner: {
+        width: 468 + 24,
+      },
+    }}
+    presets={presetList}
+    panelRender={(_, { components: { Picker, Presets } }) => (
+      <div
+        className="custom-panel"
+        style={{
+          display: 'flex',
+          width: 468,
+        }}
+      >
+        <div
+          style={{
+            flex: 1,
+          }}
+        >
+          <Presets />
+        </div>
+        <Divider
+          type="vertical"
+          style={{
+            height: 'auto',
+          }}
+        />
+        <div
+          style={{
+            width: 234,
+          }}
+        >
+          <Picker />
+        </div>
+      </div>
+    )}
+  />
+)
 
 export default function Page() {
   const [form] = Form.useForm()
@@ -73,7 +99,7 @@ export default function Page() {
   }, [])
 
   return (
-    <div className="mx-auto">
+    <div className="flex flex-col justify-center">
       <div
         className="max-w-100% mx-auto flex justify-center"
         style={{ paddingBottom: '20px', minHeight: '200px' }}
@@ -85,6 +111,7 @@ export default function Page() {
         />
       </div>
       <Form
+        className="overflow-hidden"
         labelCol={formItemLayout}
         wrapperCol={{ style: { width: 200 } }}
         layout="inline"
@@ -93,7 +120,7 @@ export default function Page() {
         style={{ maxWidth: '100%' }}
         onValuesChange={onFormChange}
       >
-        <div className="flex justify-between">
+        <div className="w-100% flex justify-evenly">
           <Form.Item
             label="width"
             name="width"
@@ -111,22 +138,26 @@ export default function Page() {
             <Input type="number" placeholder="请输入" />
           </Form.Item>
         </div>
-        <Form.Item label="size" name="size" tooltip="文本大小">
-          <Input type="number" placeholder="请输入" />
-        </Form.Item>
-        <Form.Item label="type" name="type" tooltip="占位图类型">
-          <Select options={typeList} placeholder="请选择问题意图ID" />
-        </Form.Item>
-        <div className=" flex justify-between">
-          <Form.Item label="bg" name="bg" tooltip="背景色" className="w-50%">
-            <ColorPicker showText defaultFormat="hex" format="hex" />
+        <div className="w-100% flex justify-evenly">
+          <Form.Item label="size" name="size" tooltip="文本大小">
+            <Input type="number" placeholder="请输入" />
+          </Form.Item>
+          <Form.Item label="type" name="type" tooltip="占位图类型">
+            <Select options={typeList} placeholder="请选择" />
+          </Form.Item>
+        </div>
+        <div className="w-100% flex justify-evenly">
+          <Form.Item label="bg" name="bg" tooltip="背景色">
+            {/*<ColorPicker showText defaultFormat="hex" format="hex" />*/}
+            <ColorCom />
           </Form.Item>
           <Form.Item label="color" name="color" tooltip="文本颜色">
-            <ColorPicker showText defaultFormat="hex" format="hex" />
+            {/*<ColorPicker showText defaultFormat="hex" format="hex" />*/}
+            <ColorCom />
           </Form.Item>
         </div>
         <Form.Item
-          wrapperCol={{ style: { width: 536 } }}
+          wrapperCol={{ style: { width: 541 } }}
           label="text"
           name="text"
           tooltip="自定义文本内容"
