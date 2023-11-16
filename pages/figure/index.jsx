@@ -1,4 +1,13 @@
-import { Button, ColorPicker, Image, Form, Input, Select, Divider } from 'antd'
+import {
+  Button,
+  ColorPicker,
+  Image,
+  Form,
+  Input,
+  Select,
+  Divider,
+  Typography,
+} from 'antd'
 import { useEffect, useState } from 'react'
 import {
   defaultData,
@@ -172,7 +181,7 @@ export default function Page() {
         </Form.Item>
       </Form>
       <div
-        style={{ padding: '0 35%', justifyContent: 'space-between' }}
+        style={{ padding: '0 30%', justifyContent: 'space-between' }}
         className="flex items-center"
       >
         <Button type="primary" onClick={download}>
@@ -181,6 +190,15 @@ export default function Page() {
         <Button type="link" target="_blank" href={imgSrc}>
           单独打开
         </Button>
+        <Typography.Paragraph
+          copyable={{
+            text: `${process.env.BASE_ORIGIN}${imgSrc}`,
+            tooltips: ['点击复制', '复制成功 ~(^o^)~'],
+          }}
+          className="!mb-0px"
+        >
+          复制URL
+        </Typography.Paragraph>
       </div>
     </div>
   )

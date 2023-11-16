@@ -14,6 +14,9 @@ module.exports = (phase, { defaultConfig }) => {
     // development
     console.log('development')
   }
+  const BASE_ORIGIN = isDev
+    ? 'http://localhost:3000'
+    : 'https://next-blog.tiven.cn'
   /** @type {import('next').NextConfig} */
   const nextConfig = {
     basePath,
@@ -40,7 +43,7 @@ module.exports = (phase, { defaultConfig }) => {
       // ],
     },
     env: {
-      customKey: 'my-value',
+      BASE_ORIGIN,
     },
     webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
       config.cache = false
