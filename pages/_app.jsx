@@ -5,6 +5,7 @@ import '@unocss/reset/tailwind-compat.css'
 import 'uno.css'
 import '@/assets/css/global.scss'
 import '@/assets/css/md.scss'
+
 import Layout from '@/components/layout'
 
 function MyApp({ Component, pageProps }) {

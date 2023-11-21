@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+
 import { useStore } from '@/store'
 
 export default function Header({ siteTitle }) {

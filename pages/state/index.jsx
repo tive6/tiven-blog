@@ -1,5 +1,5 @@
-import { useStore } from '@/store'
 import MyPage from '@/components/myPage'
+import { useStore } from '@/store'
 
 export async function getServerSideProps() {
   const { count } = useStore.getState() // 获取当前状态的值

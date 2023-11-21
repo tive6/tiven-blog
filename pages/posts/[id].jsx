@@ -1,10 +1,12 @@
-import { getAllPostIds, getPostData } from '@/lib/posts'
-import Head from 'next/head'
-import Date from '@/components/date'
 // import 'highlight.js/lib/common';
 // import 'highlight.js/styles/monokai-sublime.css';
 // import 'highlight.js/styles/github.css';
 import 'highlight.js/styles/atom-one-dark-reasonable.css'
+
+import Head from 'next/head'
+
+import Date from '@/components/date'
+import { getAllPostIds, getPostData } from '@/lib/posts'
 // import 'highlight.js/styles/tomorrow-night-bright.css';
 // import '@/assets/css/md.scss'
 // console.log(process.env.NEXT_PUBLIC_SITE)

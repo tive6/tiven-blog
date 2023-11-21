@@ -1,14 +1,15 @@
 import {
   Button,
   ColorPicker,
-  Image,
+  Divider,
   Form,
+  Image,
   Input,
   Select,
-  Divider,
   Typography,
 } from 'antd'
 import { useEffect, useState } from 'react'
+
 import {
   defaultData,
   fontSizeList,

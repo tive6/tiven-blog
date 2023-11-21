@@ -42,6 +42,7 @@
     "eslint-config-next": "13.4.19",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "8.4.29",
