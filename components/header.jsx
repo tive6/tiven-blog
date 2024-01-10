@@ -1,10 +1,61 @@
+import { useReactive } from 'ahooks'
+import { Tabs } from 'antd'
 import Head from 'next/head'
 import Link from 'next/link'
+import { usePathname, useRouter } from 'next/navigation'
+import { useEffect } from 'react'
 
 import { useStore } from '@/store'
 
+const tabsData = [
+  {
+    key: '/',
+    // label: (
+    //   <Link href="/" legacyBehavior>
+    //     <a className="text-#66b1ff">首页</a>
+    //   </Link>
+    // ),
+    label: '首页',
+    children: null,
+  },
+  {
+    key: '/state',
+    label: 'Zustand 状态管理',
+    children: null,
+  },
+  {
+    key: '/tools',
+    label: '工具箱',
+    children: null,
+  },
+  {
+    key: '/figure',
+    label: '占位图在线生成',
+    children: null,
+  },
+  {
+    key: '/api/g/a/200',
+    label: '自定义占位图',
+    children: null,
+  },
+]
+
 export default function Header({ siteTitle }) {
   const store = useStore()
+  const pathname = usePathname()
+  const router = useRouter()
+  const data = useReactive({
+    activeKey: '',
+  })
+
+  const onChange = (key) => {
+    data.activeKey = key
+    router.push(key, { scroll: false })
+  }
+
+  useEffect(() => {
+    data.activeKey = pathname
+  }, [])
 
   return (
     <>
@@ -26,23 +77,24 @@ export default function Header({ siteTitle }) {
           ]
         </p>
         <p className="text-red">Count: {store.count}</p>
-        <div className="flex justify-center items-center my-20px">
-          <Link href="/" legacyBehavior>
-            <a className="text-#66b1ff">首页</a>
-          </Link>
-          <div className="w-20px"></div>
-          <Link href="/state" legacyBehavior>
-            <a className="text-#66b1ff">Zustand 状态管理</a>
-          </Link>
-          <div className="w-20px"></div>
-          <Link href="/api/g/a/200" legacyBehavior>
-            <a className="text-#66b1ff">自定义占位图</a>
-          </Link>
-          <div className="w-20px"></div>
-          <Link href="/figure" legacyBehavior>
-            <a className="text-#66b1ff">占位图在线生成</a>
-          </Link>
-        </div>
+        <Tabs
+          defaultActiveKey={data.activeKey}
+          activeKey={data.activeKey}
+          items={tabsData.map((item) => ({
+            key: item.key,
+            label: (
+              <Link href={item.key} legacyBehavior>
+                <a
+                  className={item.key === data.activeKey ? 'text-#66b1ff' : ''}
+                >
+                  {item.label}
+                </a>
+              </Link>
+            ),
+            children: item.children,
+          }))}
+          onChange={onChange}
+        />
       </section>
     </>
   )

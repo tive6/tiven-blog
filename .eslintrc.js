@@ -1,14 +1,17 @@
 module.exports = {
+  root: true,
+  env: {
+    node: true,
+    browser: true,
+    es2020: true,
+  },
   extends: [
     'next/core-web-vitals',
+    'eslint:recommended',
     // 'plugin:@next/next/recommended',
     // 'prettier',
   ],
-  env: {
-    es6: true,
-    node: true,
-  },
-  plugins: ['unused-imports', 'simple-import-sort', 'prettier'], //这个是为了整合我们自己配置.prettierrc.js
+  plugins: ['unused-imports', 'simple-import-sort', 'prettier'],
   rules: {
     'prettier/prettier': [
       'error',

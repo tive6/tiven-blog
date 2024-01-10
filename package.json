@@ -10,12 +10,15 @@
     "prepm2": "npm run build",
     "pm2": "pm2 start npm --name \"next-blog\" -- run start",
     "lint": "next lint",
+    "lint:test": "eslint --ext .js,.jsx,.ts,.tsx --quiet ./pages --quiet ./components --quiet ./lib",
     "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./pages --quiet ./components --quiet ./lib",
     "git": "tive git -c tive.git.config.cjs",
     "gen": "node ./scripts/gen-blog-list.js"
   },
   "dependencies": {
     "@ant-design/cssinjs": "^1.17.2",
+    "@ant-design/icons": "^5.2.6",
+    "ahooks": "^3.7.8",
     "antd": "^5.11.0",
     "axios": "^1.5.0",
     "color": "^4.2.3",
@@ -26,6 +29,7 @@
     "highlight.js": "^11.8.0",
     "markdown-it": "^13.0.1",
     "next": "13.4.19",
+    "next-cookie": "^2.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "remark": "^14.0.3",
@@ -48,6 +52,8 @@
     "postcss": "8.4.29",
     "prettier": "^3.0.3",
     "sass": "^1.66.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard-scss": "^13.0.0",
     "unocss": "^0.55.7"
   }
 }

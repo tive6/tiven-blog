@@ -94,6 +94,7 @@ module.exports = (phase, { defaultConfig }) => {
         },
       ]
     },
+    transpilePackages: ['ahooks'],
   }
 
   return nextConfig
