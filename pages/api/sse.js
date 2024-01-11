@@ -12,6 +12,8 @@ export default function GET(req, res) {
       timestamp: new Date().toISOString(),
     })}\n\nid: 1\n\n`
   )
+  console.log(setInterval)
+  console.log(setTimeout)
   res.end()
   // res.write(`event: update\ndata: bye-bye\n\nid: ${nanoid(6)}\n\n`)
   // res.write('event: hi\ndata: hi\n\nid: 100\n\n')
