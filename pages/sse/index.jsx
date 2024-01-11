@@ -2,6 +2,10 @@ import { useReactive } from 'ahooks'
 import { Button, List, Space, Typography } from 'antd'
 import { useRef } from 'react'
 
+export const config = {
+  maxDuration: 30,
+}
+
 export default function Page() {
   const sse = useRef()
   const that = useReactive({
