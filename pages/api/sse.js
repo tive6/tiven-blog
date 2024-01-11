@@ -20,13 +20,13 @@ export default function GET(req, res) {
     setTimeout(() => {
       console.log(789)
       console.log(Date.now())
+      res.end('event: end\n\ndata: end\n\nid: 9999\n\n')
       console.log(123)
     }, 2000)
   } catch (err) {
     console.log(err)
   }
   console.log(2, Date.now())
-  res.end()
   // res.write(`event: update\ndata: bye-bye\n\nid: ${nanoid(6)}\n\n`)
   // res.write('event: hi\ndata: hi\n\nid: 100\n\n')
   // let n = 0
