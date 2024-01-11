@@ -38,6 +38,11 @@ const tabsData = [
     label: '自定义占位图',
     children: null,
   },
+  {
+    key: '/sse',
+    label: 'SSE单向通信',
+    children: null,
+  },
 ]
 
 export default function Header({ siteTitle }) {
