@@ -14,6 +14,11 @@ export default function GET(req, res) {
   )
   console.log(setInterval)
   console.log(setTimeout)
+  let t = setTimeout(() => {
+    console.log(Date.now())
+    clearTimeout(t)
+  }, 2000)
+  console.log(Date.now())
   res.end()
   // res.write(`event: update\ndata: bye-bye\n\nid: ${nanoid(6)}\n\n`)
   // res.write('event: hi\ndata: hi\n\nid: 100\n\n')
