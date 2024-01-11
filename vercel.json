@@ -2,6 +2,9 @@
   "functions": {
     "pages/api/g/[...px].js": {
       "includeFiles": "fonts/**"
+    },
+    "pages/api/**/*": {
+      "maxDuration": 30
     }
   }
 }

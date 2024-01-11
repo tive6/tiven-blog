@@ -4,6 +4,7 @@ export default function GET(req, res) {
   res.writeHead(200, {
     'Content-Type': 'text/event-stream; charset=utf-8',
     'Cache-Control': 'no-cache',
+    Connection: 'keep-alive',
   })
   // res.status(200).json({ text: 'Hello' })
   res.write(
