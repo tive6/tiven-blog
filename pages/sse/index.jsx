@@ -16,8 +16,6 @@ export default function Page() {
     init()
   }
 
-  console.log('page')
-
   function close() {
     sse.current?.close()
   }
