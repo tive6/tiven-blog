@@ -3,7 +3,7 @@
     "pages/api/g/[...px].js": {
       "includeFiles": "fonts/**"
     },
-    "api/sse/*.js": {
+    "api/sse.js": {
       "maxDuration": 30
     }
   }
