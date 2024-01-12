@@ -84,7 +84,7 @@ export default function Page() {
       <List
         header={
           <div className="flex justify-between">
-            通信结果 1
+            通信结果
             <Button size="small" onClick={clear}>
               清空
             </Button>
