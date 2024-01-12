@@ -5,14 +5,20 @@ import '@unocss/reset/tailwind-compat.css'
 import 'uno.css'
 import '@/assets/css/global.scss'
 import '@/assets/css/md.scss'
+import 'dayjs/locale/zh-cn'
+
+import { ConfigProvider } from 'antd'
+import zhCN from 'antd/locale/zh_CN'
 
 import Layout from '@/components/layout'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <ConfigProvider locale={zhCN}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </ConfigProvider>
   )
 }
 
