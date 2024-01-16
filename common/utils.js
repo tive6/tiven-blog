@@ -11,5 +11,5 @@ export const md5 = async (str) => {
 }
 
 export const genMd5 = async () => {
-  return await md5(Math.random() + '')
+  return await md5(Math.random().toString(36))
 }
