@@ -1,13 +1,17 @@
 import { nanoid } from 'nanoid'
 
 export default function GET(req, res) {
-  res.writeHead(200, {
-    'Content-Type': 'text/event-stream; charset=utf-8',
-    'Cache-Control': 'no-cache, no-transform',
-    'Content-Encoding': 'none',
-    Connection: 'keep-alive',
-  })
-  res.flushHeaders() // 确保头部立即发送
+  // res.writeHead(200, {
+  //   'Content-Type': 'text/event-stream; charset=utf-8',
+  //   'Cache-Control': 'no-cache, no-transform',
+  //   'Content-Encoding': 'none',
+  //   Connection: 'keep-alive',
+  // })
+  // res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Content-Type', 'text/event-stream;charset=utf-8')
+  res.setHeader('Cache-Control', 'no-cache, no-transform')
+  res.setHeader('X-Accel-Buffering', 'no')
+  // res.flushHeaders() // 确保头部立即发送
   // res.status(200).json({ text: 'Hello' })
   res.write(
     `data: ${JSON.stringify({
