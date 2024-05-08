@@ -8,6 +8,7 @@ export default function GET(req, res) {
   //   Connection: 'keep-alive',
   // })
   res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Connection', 'keep-alive')
   res.setHeader('Content-Type', 'text/event-stream;charset=utf-8')
   res.setHeader('Cache-Control', 'no-cache, no-transform')
   res.setHeader('X-Accel-Buffering', 'no')
