@@ -7,7 +7,7 @@ export default function GET(req, res) {
     'Content-Encoding': 'none',
     Connection: 'keep-alive',
   })
-  res.flushHeaders(); // 确保头部立即发送
+  res.flushHeaders() // 确保头部立即发送
   // res.status(200).json({ text: 'Hello' })
   res.write(
     `data: ${JSON.stringify({
