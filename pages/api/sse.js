@@ -4,7 +4,7 @@ export default function GET(req, res) {
   res.writeHead(200, {
     'Content-Type': 'text/event-stream; charset=utf-8',
     'Cache-Control': 'no-cache, no-transform',
-    // 'Content-Encoding': 'none',
+    'Content-Encoding': 'none',
     Connection: 'keep-alive',
   })
   // res.flushHeaders(); // 确保头部立即发送
