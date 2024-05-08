@@ -7,11 +7,11 @@ export default function GET(req, res) {
   //   'Content-Encoding': 'none',
   //   Connection: 'keep-alive',
   // })
-  // res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader('Content-Type', 'text/event-stream;charset=utf-8')
   res.setHeader('Cache-Control', 'no-cache, no-transform')
   res.setHeader('X-Accel-Buffering', 'no')
-  // res.flushHeaders() // 确保头部立即发送
+  res.flushHeaders() // 确保头部立即发送
   // res.status(200).json({ text: 'Hello' })
   res.write(
     `data: ${JSON.stringify({
