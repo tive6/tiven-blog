@@ -19,11 +19,6 @@ const tabsData = [
     children: null,
   },
   {
-    key: '/state',
-    label: 'Zustand 状态管理',
-    children: null,
-  },
-  {
     key: '/tools',
     label: '工具箱',
     children: null,
@@ -41,6 +36,11 @@ const tabsData = [
   {
     key: '/sse',
     label: 'SSE单向通信',
+    children: null,
+  },
+  {
+    key: '/state',
+    label: 'Zustand 状态管理',
     children: null,
   },
 ]
@@ -80,7 +80,7 @@ export default function Header({ siteTitle }) {
           </a>{' '}
           ]
         </p>
-        <p className="text-red">Count: {store.count}</p>
+        {/*<p className="text-red">Count: {store.count}</p>*/}
         <Tabs
           defaultActiveKey={data.activeKey}
           activeKey={data.activeKey}
