@@ -8,7 +8,8 @@ import Header from '@/components/header'
 
 const name = 'Tiven'
 export const siteTitle = '天问博客'
-export const picSrc = 'https://placekitten.com/g/350/350'
+export const picSrc =
+  'https://next-blog.tiven.cn/api/g/200/200?width=200&height=200&size=50&type=svg&bg=fadbd8&color=49c28c&text=天问'
 // https://tiven.cn/logo.png
 
 const basePath = process.env.BASE_PATH || ''

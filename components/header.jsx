@@ -70,9 +70,8 @@ export default function Header({ siteTitle }) {
       <section className="w-450px mx-auto mt-10px text-center">
         <p>博观而约取，厚积而薄发</p>
         <p className="text-#666 mt-10px">
-          Next.js
-          为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、
-          支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置。 [{' '}
+          天问的个人网站(天问博客)，专注于Node.js、Vue.js、React、Vite、Npm、Nginx等大前端技术。不断学习新技术，记录日常开发问题，持续分享coding，极客开源，共同进步。生命不息，奋斗不止...
+          [{' '}
           <a
             className="text-#66b1ff decoration-underline"
             href="https://tiven.cn"

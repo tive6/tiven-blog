@@ -32,7 +32,8 @@ module.exports = (phase, { defaultConfig }) => {
     //   buildActivityPosition: 'bottom-right',
     // },
     images: {
-      domains: ['placekitten.com', 'tiven.cn'],
+      dangerouslyAllowSVG: true,
+      domains: ['placekitten.com', 'tiven.cn', 'next-blog.tiven.cn'],
       // remotePatterns: [
       //   {
       //     protocol: 'https',
