@@ -25,7 +25,8 @@ allPostsData.forEach((item) => {
   let dateStr = dayjs(date).toISOString()
   blogList.push({
     ...item,
-    id: abbrlink,
+    abbrlink: `${abbrlink}`,
+    id: `${abbrlink}`,
     date: dateStr,
   })
   blogMap[abbrlink] = fileName
