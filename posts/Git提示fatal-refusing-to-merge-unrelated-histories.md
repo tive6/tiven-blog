@@ -12,7 +12,7 @@ date: 2023-08-25 15:55:17
 
 ![Git](https://tiven.cn/static/img/img-git-02-XHQJvbbdWZHA4Zj-cugng.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、完整报错
 

@@ -14,7 +14,7 @@ date: 2022-07-13 16:36:41
 
 ![Vue && DOM](https://tiven.cn/static/img/img-vue-01-LwJYB5ARGwBSqfpvKFEow.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、获取元素
 

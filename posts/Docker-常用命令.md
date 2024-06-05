@@ -13,7 +13,7 @@ date: 2023-12-18 14:05:40
 
 ![Docker](https://tiven.cn/static/img/docker-01-f3fHmY7L.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、安装 Docker
 

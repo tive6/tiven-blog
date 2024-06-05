@@ -12,7 +12,7 @@ categories:
 
 ![Git Shell](https://tiven.cn/static/img/img-git-02-XHQJvbbdWZHA4Zj-cugng.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、常用操作命令
 

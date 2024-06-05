@@ -13,7 +13,7 @@ date: 2022-06-22 15:06:43
 
 ![Linux && CentOS](https://tiven.cn/static/img/img-linux-02-T5XKKrMZDxYZDUAwloGVI.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## Linux 基本操作
 

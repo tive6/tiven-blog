@@ -13,7 +13,7 @@ categories:
 
 ![Hexo-PWA](https://tiven.cn/static/img/img-post-26-09YEDLr_4YuZpoiG0fpWS.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## PWA前提
 

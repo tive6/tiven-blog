@@ -14,7 +14,7 @@ categories:
 
 ![JsBridge](https://tiven.cn/static/img/img-js-bridge-7r0NxR6_ZISmidvaZ_CaM.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言  
 原生开发一般分为 Android 和 IOS，所以H5端为了兼容开发，一般使用封装好的插件，去统一调用原生端提供的`jsbridge`方法。

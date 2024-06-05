@@ -15,7 +15,7 @@ description: 前端开发过程中经常会用到各种各样的脚手架工具�
 
 ![tive-cli](https://tiven.cn/static/img/img-tive-cli-02-MBAvXFNlTamSyXYvlo5n-.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、全局安装
 

@@ -13,7 +13,7 @@ categories:
 
 ![WebAssembly](https://tiven.cn/static/img/img-wasm-01-GoOd3QXhfcZDXrtMLpPKf.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、特性
 

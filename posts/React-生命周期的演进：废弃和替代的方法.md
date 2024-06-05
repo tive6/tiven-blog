@@ -12,7 +12,7 @@ date: 2023-08-21 17:28:04
 
 ![React 生命周期](https://tiven.cn/static/img/img-react-01-awodTve6vGeownJ6xi27U.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、 `componentWillMount` 的废弃
 

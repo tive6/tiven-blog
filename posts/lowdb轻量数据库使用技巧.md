@@ -15,7 +15,7 @@ top: 9
 
 ![lowdb 数据库](https://tiven.cn/static/img/lowdb-01-TlIJDAmg.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 > 使用的lowdb版本：`"^1.0.0"`
 

@@ -12,7 +12,7 @@ categories:
 
 ![CSS3 神奇的Filter](https://tiven.cn/static/img/img-gray-theme-Nkzv8s4Usye5sEpzP6GQ8.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## filter(滤镜) 属性
 

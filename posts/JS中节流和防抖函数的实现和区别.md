@@ -12,7 +12,7 @@ categories:
 
 ![Javascript 节流和防抖](https://tiven.cn/static/img/horse-wild-horse-marsh-pony-swamp-preview-GAKwS_I7uF0lsTaC0oQz4.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、概念
 

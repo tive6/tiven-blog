@@ -14,7 +14,7 @@ CMD模块化的代表之一就是国内开发的[seaJs](http://seajs.org)，它�
 
 ![Image](https://tiven.cn/static/img/img-post-07--Z-9F41Z8nGrd8JiVvQvZ.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 * 遵从CMD规范，代码模块化
 * 中文文档通俗易懂，入门上手简单
 * 兼容性好、配置简洁明了、提供插件接口

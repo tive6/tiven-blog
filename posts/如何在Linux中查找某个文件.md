@@ -12,7 +12,7 @@ categories:
 
 ![Image](https://tiven.cn/static/img/img-post-01-QbDEdgmh_CqZxopzsh_rJ.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 通过`SSH`工具连接到`Linux`系统。在 Linux 中查找文件有两种方法：
 

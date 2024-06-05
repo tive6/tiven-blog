@@ -14,7 +14,7 @@ date: 2022-09-14 16:36:18
 
 ![Vite + Svelte](https://tiven.cn/static/img/img-svelte-01-hhx5v16WhRd3jTpXst242.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言
 

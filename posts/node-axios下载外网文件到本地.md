@@ -14,7 +14,7 @@ categories:
 
 ![Node+Axios下载图片](https://tiven.cn/static/img/img-post-08-c1kr9HQ13lTEmcyI_mowX.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 初始化项目
 

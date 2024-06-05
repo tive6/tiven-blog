@@ -13,7 +13,7 @@ categories:
 
 ![我们是冠军](https://tiven.cn/static/img/img-edg-01-xI1PbRijRVwZcsQXwXkjh.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 随着BO5最后一场，EDG破三路，摧毁敌方水晶。6年的努力、6年的汗水与泪水，都在这一刻得到了见证。
 

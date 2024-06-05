@@ -13,7 +13,7 @@ categories:
 
 ![DPR 1PX](https://tiven.cn/static/img/kpl-caiwenji-bkSbaqsOs7QzN8IxSxTd6.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 背景
 

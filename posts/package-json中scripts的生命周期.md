@@ -13,7 +13,7 @@ categories:
 
 ![NPM Scripts](https://tiven.cn/static/img/hourglass-time-hours-sand-preview-tOqBton_9Qy7cZsnLctFJ.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 > 以Vite构建工具，来讲解`npm scripts`的生命周期。
 

@@ -13,7 +13,7 @@ date: 2023-03-08 09:55:40
 
 ![dangerouslySetInnerHTML](https://tiven.cn/static/img/img-react-01-awodTve6vGeownJ6xi27U.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## dangerouslySetInnerHTML 用法
 

@@ -13,7 +13,7 @@ date: 2023-08-30 15:56:55
 
 ![React](https://tiven.cn/static/img/img-react-01-awodTve6vGeownJ6xi27U.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、安装与基本设置
 

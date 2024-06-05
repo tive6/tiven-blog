@@ -13,7 +13,7 @@ categories:
 
 ![Node-fs](https://tiven.cn/static/img/img-node-fs-BUojvCYl9tf7j6EQoAJK5.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ### 1. copyFile
 

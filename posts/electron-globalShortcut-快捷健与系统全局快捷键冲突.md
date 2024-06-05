@@ -13,7 +13,7 @@ date: 2023-07-01 10:01:11
 
 ![electron globalShortcut](https://tiven.cn/static/img/img-post-tools-02-s3LNB0mGujGQpJYjdcD9V.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 快捷键配置
 

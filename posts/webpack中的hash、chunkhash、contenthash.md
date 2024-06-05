@@ -12,7 +12,7 @@ categories:
 
 ![Webpack Hash](https://tiven.cn/static/img/kpl-ailin-02-CTLwCMCZ_MASGAG8AKiNn.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言
 

@@ -14,7 +14,7 @@ date: 2022-05-24 17:47:48
 
 ![Prettier Format](https://tiven.cn/static/img/img-prettier-01-Q-OCvzo_pli_rTirePYWv.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## Prettier 常用配置
 

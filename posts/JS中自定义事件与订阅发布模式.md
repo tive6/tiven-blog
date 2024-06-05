@@ -12,7 +12,7 @@ categories:
 
 ![Observer 观察者模式](https://tiven.cn/static/img/img-observer-01-SXcx4izZ5demwOo1tR3HF.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

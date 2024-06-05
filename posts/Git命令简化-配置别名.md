@@ -12,7 +12,7 @@ categories:
 
 ![Git 配置别名](https://tiven.cn/static/img/highway-night-traffic-light-preview-CTGyb5G22BKkJWkcEg121.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、配置别名
 

@@ -12,7 +12,7 @@ categories:
 
 ![Javascript](https://tiven.cn/static/img/img-js-04-dPIVRzlwMdj1V8eRB3tje.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、伪（类）数组转数组
 

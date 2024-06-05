@@ -13,7 +13,7 @@ date: 2023-08-15 15:47:26
 
 ![CentOS](https://tiven.cn/static/img/img-linux-02-T5XKKrMZDxYZDUAwloGVI.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、场景需要
 

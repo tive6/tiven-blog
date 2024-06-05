@@ -13,7 +13,7 @@ date: 2024-01-20 11:30:31
 
 ![CSS3](https://tiven.cn/static/img/css-01-fDhKkCf2.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、white-space 属性
 

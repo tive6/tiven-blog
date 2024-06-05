@@ -14,7 +14,7 @@ date: 2022-10-28 14:16:50
 
 ![Code Tool](https://tiven.cn/static/img/img-code-01-6IWYmS-GDD2PJuyS8hhg2.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、安装cloc
 

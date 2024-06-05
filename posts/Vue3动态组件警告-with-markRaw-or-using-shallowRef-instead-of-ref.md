@@ -12,7 +12,7 @@ date: 2023-08-09 16:34:49
 
 ![Vue3 shallowRef | markRaw](https://tiven.cn/static/img/vue-error-02-gRIr9n-b.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、使用场景
 

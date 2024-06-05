@@ -13,7 +13,7 @@ categories:
 
 ![Linux Shell](https://tiven.cn/static/img/img-linux-shell-ZnFr7xgPry5AGM_GP4za9.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 第一种：cat /dev/null > filename
 

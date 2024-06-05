@@ -14,7 +14,7 @@ date: 2017-03-14 11:41:38
 
 [![Webpack](https://tiven.cn/static/img/img-webpack-hUU76N-fR3duZ0TcNrzub.jpg "webpack")](//webpack.js.org)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 `webpack`是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源。本文就简单介绍webpack的基本使用和`config`配置。
 ***前提：***windows下`node`和`npm`环境已经配置OK，`cmd命令行`中`node -v`和`npm -v`都能正常显示版本。

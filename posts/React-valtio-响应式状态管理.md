@@ -13,7 +13,7 @@ date: 2023-10-13 17:02:21
 
 ![React + Valtio](https://tiven.cn/static/img/react-05-A2AqTp0v.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、状态管理库
 

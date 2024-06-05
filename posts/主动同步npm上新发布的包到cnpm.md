@@ -13,7 +13,7 @@ date: 2022-09-08 15:44:51
 
 ![NPM](https://tiven.cn/static/img/img-npm-02-fxFXF8douEz-BeV-vnEmk.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 背景
 

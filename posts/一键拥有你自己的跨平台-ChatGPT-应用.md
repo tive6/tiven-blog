@@ -14,7 +14,7 @@ date: 2023-06-16 17:07:30
 
 ![ChatGPT](https://tiven.cn/static/img/img-gpt-01-2hcrUJ7mH1QWVJ6Ktb_pP.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 分享地址
 

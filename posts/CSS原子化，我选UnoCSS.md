@@ -12,7 +12,7 @@ date: 2023-10-08 16:03:20
 
 ![UnoCSS](https://tiven.cn/static/img/unocss-01-SnYAGZfI.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 相同的原由 & 前言
 

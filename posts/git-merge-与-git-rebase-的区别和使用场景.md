@@ -12,7 +12,7 @@ date: 2023-05-24 10:37:08
 
 ![Git merge & rebase](https://tiven.cn/static/img/img-git-02-XHQJvbbdWZHA4Zj-cugng.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、Git Merge
 

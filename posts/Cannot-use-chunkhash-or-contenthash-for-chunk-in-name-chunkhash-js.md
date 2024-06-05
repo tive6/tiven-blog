@@ -13,7 +13,7 @@ description: Vue项目启动本地服务时报错：`Cannot use [chunkhash] or [
 
 ![Webpack](https://tiven.cn/static/img/kpl-aguduo-zMZbnVA2cROrVmF2Yg7zK.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 报错原因
 

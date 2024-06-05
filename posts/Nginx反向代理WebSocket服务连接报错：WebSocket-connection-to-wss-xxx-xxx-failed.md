@@ -15,7 +15,7 @@ description: 最近使用node.js搭建WebSocket服务，部署到Linux服务器�
 
 ![Nginx WebSocket](https://tiven.cn/static/img/img-nginx-04-bIyGc1JEYNjk4fvdCOddE.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 介绍
 

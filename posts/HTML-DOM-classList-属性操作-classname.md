@@ -14,7 +14,7 @@ date: 2023-01-14 15:53:56
 
 ![DOM classList](https://tiven.cn/static/img/img-dom-01-gKQhVquTfi-BC_NoJLdZi.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 定义和用法
 

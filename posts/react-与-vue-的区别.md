@@ -13,7 +13,7 @@ date: 2023-08-31 17:52:13
 
 ![React vs Vue](https://tiven.cn/static/img/react-01-bU5pS-yG.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、开发团队和维护：
 

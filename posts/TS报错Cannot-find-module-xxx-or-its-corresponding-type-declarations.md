@@ -14,7 +14,7 @@ date: 2023-05-18 15:28:37
 
 ![TS declare module](https://tiven.cn/static/img/img-ts-01-Xyj6BEm7dx6FDpFKrbJGp.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 报错原因
 

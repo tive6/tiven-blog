@@ -12,7 +12,7 @@ JavaScript 中存在一些特殊的运算符，如 `||=`、`&&=`、`??=`、`?.`�
 
 ![js中 ||=、&&=、??=、?.、?? 运算符](https://tiven.cn/static/img/js-operator-FhoecVju.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## ||= 逻辑或赋值运算符 (Logical OR assignment)
 

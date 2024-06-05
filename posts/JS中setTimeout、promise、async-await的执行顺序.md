@@ -15,7 +15,7 @@ categories:
 
 ![JavaScript](https://tiven.cn/static/img/img-js-03-fs67PSGCGxT3ZB1PBaDhg.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## Event Loop（事件循环）
 

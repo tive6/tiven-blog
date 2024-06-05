@@ -15,7 +15,7 @@ description: '在使用Parcel前端打包工具来启动本地服务时，consol
 
 ![前端工程化 Parcel](https://tiven.cn/static/img/img-parcel-02-CNX0p6DL5IpDt52RYJmKR.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、配置babel
 

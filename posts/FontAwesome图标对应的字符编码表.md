@@ -13,7 +13,7 @@ categories:
 
 ![Font Awesome](https://tiven.cn/static/img/img-fa-01-yGtZFCA3_b0RzsmsVx0MK.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 * 使用方法：
 

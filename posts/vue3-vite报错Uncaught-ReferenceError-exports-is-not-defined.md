@@ -14,7 +14,7 @@ date: 2023-05-05 14:16:39
 
 ![vue3 + vite + vue-router](https://tiven.cn/static/img/img-router-01-JeCRj_iQtGO4jfFUoctpg.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 项目依赖
 

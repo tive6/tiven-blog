@@ -12,7 +12,7 @@ categories:
 
 ![Vue3.0](https://tiven.cn/static/img/heart-sky-dahl-blue-sky-preview-pzTeSckBZJeE9hYkbwyyX.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、Composition API: 组合API/注入API
 

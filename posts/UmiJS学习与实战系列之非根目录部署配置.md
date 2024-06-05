@@ -14,7 +14,7 @@ categories:
 
 ![UmiJS-Deploy](https://tiven.cn/static/img/img-umi-02-q4qbE2GnFfbZuG6lNNr8i.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 项目打包配置
 

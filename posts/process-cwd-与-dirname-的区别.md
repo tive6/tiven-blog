@@ -12,7 +12,7 @@ Node.js 中的 `__dirname` 和 `process.cwd()` 都是用于获取文件系统路
 
 ![process.cwd() & __dirname](https://tiven.cn/static/img/img-node-01-0jAmqdcq1GY_D-X3hBWm3.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、process.cwd()
 

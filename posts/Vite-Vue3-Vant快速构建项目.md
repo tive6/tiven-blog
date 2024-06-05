@@ -17,7 +17,7 @@ description: 利用Vite工具可以很轻松生成Vue3工程，但是作为Vue�
 
 ![Vite + Vue3](https://tiven.cn/static/img/img-tive-cli-5HtE0nI2K7Ug3p0aKGqWj.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、vue3全家桶模板介绍
 

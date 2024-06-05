@@ -14,7 +14,7 @@ date: 2023-03-21 15:46:52
 
 ![Mac Shell](https://tiven.cn/static/img/img-shell-FT96_YT5KdxO7VzMmkfLS.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 > 系统环境：Mac
 

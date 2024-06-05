@@ -14,7 +14,7 @@ date: 2022-11-28 19:14:47
 
 ![Vue Externals](https://tiven.cn/static/img/img-vue-02-vnCFBMX9o39TemLsW6asl.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

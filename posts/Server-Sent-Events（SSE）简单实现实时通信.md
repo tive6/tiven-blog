@@ -14,7 +14,7 @@ date: 2024-01-18 15:52:35
 
 ![SSE 实时通信](https://tiven.cn/static/img/sse-01-38c8jweI.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、什么是 Server-Sent Events？
 

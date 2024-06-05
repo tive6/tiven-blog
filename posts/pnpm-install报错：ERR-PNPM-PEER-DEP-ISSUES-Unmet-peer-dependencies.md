@@ -14,7 +14,7 @@ date: 2022-06-13 11:41:23
 
 ![pnpm && npm](https://tiven.cn/static/img/img-pnpm-01-uuy8Ng5U-8RCd9KU396Kj.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

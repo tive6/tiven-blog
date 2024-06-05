@@ -13,7 +13,7 @@ categories:
 
 ![Nodemon](https://tiven.cn/static/img/img-nodemon-01-Bl6y7QdY1zoRK4LDD4UhT.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ### 安装
 

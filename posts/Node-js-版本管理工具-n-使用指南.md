@@ -15,7 +15,7 @@ date: 2023-05-27 14:43:01
 
 ![Node.js && n](https://tiven.cn/static/img/img-node-04-FOBe39xxFBNmtWxhETk5u.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 安装
 

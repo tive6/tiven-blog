@@ -12,7 +12,7 @@ date: 2023-06-04 10:28:22
 
 ![TypeScript](https://tiven.cn/static/img/img-ts-01-Xyj6BEm7dx6FDpFKrbJGp.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1 — 高级类型（Advanced Types）
 

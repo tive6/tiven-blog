@@ -14,7 +14,7 @@ date: 2023-03-03 17:37:18
 
 ![CSS3 attr函数](https://tiven.cn/static/img/img-css-01--0G8QBvgAStc0_UaZvcp_.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 代码展示
 

@@ -14,6 +14,13 @@ const allPostsData = fileNames.map((fileName) => {
   const fullPath = path.join(postsDirectory, fileName)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
 
+  // 注释原来hexo中的 <!-- more --> 标记
+  const content = fileContents.replace(
+    '<!-- more -->',
+    '[//]: # (<!-- more -->)'
+  )
+  fs.writeFileSync(fullPath, content)
+
   const matterResult = matter(fileContents)
   return { ...matterResult.data, fileName }
 })

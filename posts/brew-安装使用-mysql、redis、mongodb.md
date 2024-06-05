@@ -14,7 +14,7 @@ date: 2023-08-06 15:06:49
 
 ![数据库](https://tiven.cn/static/img/mysql-01-AV-dk7Hz.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言
 

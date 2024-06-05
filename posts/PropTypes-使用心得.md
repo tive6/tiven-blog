@@ -12,7 +12,7 @@ date: 2023-12-12 18:04:19
 
 ![React PropTypes](https://tiven.cn/static/img/img-react-01-awodTve6vGeownJ6xi27U.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、什么是 PropTypes
 

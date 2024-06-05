@@ -12,7 +12,7 @@ categories:
 
 ![Vue3.0组件通信](https://tiven.cn/static/img/img-vue-props-X0cWxQV5MtM0u0M2bvdqn.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1.props
 

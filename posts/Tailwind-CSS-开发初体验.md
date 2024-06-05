@@ -14,7 +14,7 @@ date: 2023-09-08 15:24:28
 
 ![Tailwind CSS](https://tiven.cn/static/img/tailwind-01-hoM_DkxC.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、安装
 

@@ -12,7 +12,7 @@ date: 2023-05-22 18:27:29
 
 ![ChatGPT生成图片](https://tiven.cn/static/img/img-chatgpt-01-bhziLBavdqF9EORB6Nich.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言
 

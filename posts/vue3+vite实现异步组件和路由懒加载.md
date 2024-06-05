@@ -15,7 +15,7 @@ categories:
 
 ![Vue3 异步组件/路由](https://tiven.cn/static/img/img-vue3-o3P3q8Ib9Nmwe82obmD9-.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

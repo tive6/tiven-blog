@@ -13,7 +13,7 @@ categories:
 
 ![Javascript Blob](https://tiven.cn/static/img/img-blob-Prk_TalUvK27SMM6xR2W0.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、概念介绍
 

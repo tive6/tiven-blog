@@ -12,7 +12,7 @@ categories:
 
 ![Javascript GC](https://tiven.cn/static/img/highspeed-photography-water-drop-of-water-alien-dance-preview-PsAYsijfSuyr7q5IDt9nG.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 垃圾回收机制概念
 

@@ -13,7 +13,7 @@ categories:
 
 ![JS 打印](https://tiven.cn/static/img/img-js-print-zZAKwhw2hYdbZ6bMy1WkN.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 页面（全屏弹窗）内容设计如上图所示：
 

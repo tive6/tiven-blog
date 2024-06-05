@@ -14,7 +14,7 @@ categories:
 
 ![Javascript 二进制对象](https://tiven.cn/static/img/kpl-xishi-fsYXTd5eRYwX4neruGVzX.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## API介绍
 

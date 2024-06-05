@@ -15,7 +15,7 @@ categories:
 
 ![EggJS](https://tiven.cn/static/img/img-eggjs-upload-MELXmFxfW1mefQpRNM_1g.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 上传文件提示： `filetype undefined` （图片可以上传，不报错）
 

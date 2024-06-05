@@ -12,7 +12,7 @@ categories:
 
 ![CSS3 mix-blend-mode 混合模式](https://tiven.cn/static/img/hedgehog-animal-baby-cute-preview-qdzC9BnxNAv6ir-VZsXmU.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、定义
 

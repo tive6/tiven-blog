@@ -14,7 +14,7 @@ date: 2022-11-17 15:44:54
 
 ![Svelte Keypress](https://tiven.cn/static/img/img-svelte-01-hhx5v16WhRd3jTpXst242.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、Svelte 事件修饰符
 

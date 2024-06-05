@@ -12,7 +12,7 @@ categories:
 
 ![Image](https://tiven.cn/static/img/img-post-02-o_XgFghiCZxB48JMy7SoD.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1. toLocaleString方法
 

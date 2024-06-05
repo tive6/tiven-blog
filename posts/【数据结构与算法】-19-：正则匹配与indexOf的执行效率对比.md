@@ -13,7 +13,7 @@ date: 2023-07-27 01:15:35
 
 ![正则匹配 vs indexOf](https://tiven.cn/static/img/img-dsa-01-6Q5tuJKvFrD-nx9eIVizq.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 性能测试
 

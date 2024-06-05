@@ -14,7 +14,7 @@ categories:
 
 ![Egg+Jsonp](https://tiven.cn/static/img/img-post-15-a2_QWlAulIU0nNCpQ7ze1.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 下载 egg-jsonp 插件
 

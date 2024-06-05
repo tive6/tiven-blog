@@ -15,7 +15,7 @@ date: 2023-05-07 14:31:27
 
 ![vue3 + vite](https://tiven.cn/static/img/img-vite-02-K96QMI1AHD56Igz67ML5T.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 项目依赖
 

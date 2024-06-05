@@ -12,7 +12,7 @@ date: 2024-04-11 10:34:03
 
 ![Naive UI](https://tiven.cn/static/img/vue-naive-ui-DFzQDsCQ.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 警告翻译过来就是：**「默认插槽为非函数值。推荐使用函数插槽以获得更佳性能。」**
 

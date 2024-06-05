@@ -12,7 +12,7 @@ categories:
 
 ![Nginx](https://tiven.cn/static/img/lol-aixi-EdqqnZmN7hqxlWovKa8nW.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 完整输出如下：
 

@@ -12,7 +12,7 @@ categories:
 
 ![CSS3 渐变色文字](https://tiven.cn/static/img/img-font-color-6Dgzq08tH7Fi1nILPzDex.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、属性说明
 

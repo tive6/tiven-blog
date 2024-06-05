@@ -13,7 +13,7 @@ categories:
 
 ![GitHub Actions](https://tiven.cn/static/img/img-github-actions-Jp8tXYKflhDD91CAxkn1h.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

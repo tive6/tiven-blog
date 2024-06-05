@@ -13,7 +13,7 @@ top: 9
 
 ![SVG && Canvas](https://tiven.cn/static/img/img-svg-02-2zQQR7DnKbv-xbP8_vCHQ.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、在 SVG 中获取文字元素宽度
 

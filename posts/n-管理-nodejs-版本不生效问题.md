@@ -14,7 +14,7 @@ date: 2023-10-06 15:50:18
 
 ![n && brew](https://tiven.cn/static/img/nodejs-01-gv0ZongC.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 问题原因
 

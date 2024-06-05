@@ -14,7 +14,7 @@ categories:
 
 ![Vite](https://tiven.cn/static/img/img-vite-01-qXyz73DxsLe-cWhwRDezi.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## package.json中脚本配置
 

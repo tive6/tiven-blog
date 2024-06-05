@@ -12,7 +12,7 @@ date: 2023-11-18 16:43:24
 
 ![微信小程序](https://tiven.cn/static/img/weapp-01-UZsuDKXN.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 代码示例
 

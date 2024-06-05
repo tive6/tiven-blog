@@ -12,7 +12,7 @@ categories:
 
 ![Javascript](https://tiven.cn/static/img/img-js-03-pqLtfAZcQURmUDXYM4DYu.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1\. JavaScript 的数据类型？
 

@@ -12,7 +12,7 @@ categories:
 
 ![Javascript](https://tiven.cn/static/img/img-js-01-an40onMK-Y-Y6IeYxOwDH.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、参数为`引用类型`的函数
 

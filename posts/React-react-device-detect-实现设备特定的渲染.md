@@ -13,7 +13,7 @@ date: 2024-01-24 14:34:23
 
 ![react-device-detect 设备检测](https://tiven.cn/static/img/rdd-01-7hSiyUWb.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、什么是 react-device-detect？
 

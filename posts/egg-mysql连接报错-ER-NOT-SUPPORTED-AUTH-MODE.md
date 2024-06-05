@@ -14,7 +14,7 @@ date: 2022-03-18 12:45:23
 
 ![egg-mysql](https://tiven.cn/static/img/img-mysql-01-qhgrxcLM0m13IzfuSRqE3.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、报错原因
 

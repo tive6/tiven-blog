@@ -14,7 +14,7 @@ date: 2022-06-09 11:32:11
 
 ![nvm && npm](https://tiven.cn/static/img/img-nvm-523XwPXpkp1yisPBwEqwd.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、报错原因
 

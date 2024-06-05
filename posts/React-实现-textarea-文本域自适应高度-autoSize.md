@@ -13,7 +13,7 @@ date: 2024-01-12 19:41:11
 
 ![Web React](https://tiven.cn/static/img/web-04-BQSt292h.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、基本原理
 

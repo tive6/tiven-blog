@@ -12,7 +12,7 @@ categories:
 
 ![Rust](https://tiven.cn/static/img/img-rust-02-K7NN1qtVA_XEn01hb5GiH.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 安装IDE
 

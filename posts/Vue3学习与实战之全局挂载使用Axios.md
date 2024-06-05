@@ -15,7 +15,7 @@ top: 11
 
 ![Vue3 全局Axios](https://tiven.cn/static/img/img-vue3-02-l72KcVTsGMBlekQUqFBAi.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、全局挂载
 

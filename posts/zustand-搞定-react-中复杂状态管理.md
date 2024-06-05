@@ -13,7 +13,7 @@ date: 2023-08-28 17:24:27
 
 ![React + Zustand 状态管理](https://tiven.cn/static/img/react-02-u9c6CgVH.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

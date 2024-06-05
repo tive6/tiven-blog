@@ -13,7 +13,7 @@ date: 2023-08-04 15:26:29
 
 ![rz、sz上传下载](https://tiven.cn/static/img/img-linux-02-T5XKKrMZDxYZDUAwloGVI.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、安转使用
 

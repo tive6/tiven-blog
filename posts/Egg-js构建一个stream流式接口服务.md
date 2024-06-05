@@ -14,7 +14,7 @@ date: 2023-08-08 16:10:23
 
 ![Egg.js Stream API](https://tiven.cn/static/img/eggjs-01-t4dYaNtm.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、准备工作
 

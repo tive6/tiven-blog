@@ -14,7 +14,7 @@ categories:
 
 ![Vue+H5适配](https://tiven.cn/static/img/img-h5-01-lFMZWNDKk29kzxcgvXOrg.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、项目介绍
 

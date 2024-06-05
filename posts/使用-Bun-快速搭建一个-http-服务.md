@@ -13,7 +13,7 @@ date: 2023-09-27 18:36:09
 
 ![Bun](https://tiven.cn/static/img/bun-01-b8YDVeWw.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、安装 Bun
 

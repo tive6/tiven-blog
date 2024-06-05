@@ -13,7 +13,7 @@ date: 2024-02-01 15:07:15
 
 ![pnpm tauri icon](https://tiven.cn/static/img/tauri-03-QhgPOkaI.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 准备工作
 

@@ -13,7 +13,7 @@ date: 2023-09-04 17:17:24
 
 ![Antd Modal.confirm](https://tiven.cn/static/img/antd-02-m9UWgvZL.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、代码演示
 

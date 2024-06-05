@@ -13,7 +13,7 @@ date: 2022-09-18 13:07:32
 
 ![Vite](https://tiven.cn/static/img/img-svelte-01-hhx5v16WhRd3jTpXst242.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 问题原因
 

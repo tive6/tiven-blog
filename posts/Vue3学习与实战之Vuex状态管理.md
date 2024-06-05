@@ -14,7 +14,7 @@ top: 9
 
 ![Vue3 Vuex](https://tiven.cn/static/img/img-vuex-01-XEosOT7wDiqHheOzDZPTq.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、目录结构
 

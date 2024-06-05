@@ -12,7 +12,7 @@ date: 2022-10-01 21:43:20
 
 ![Git Commit](https://tiven.cn/static/img/img-git-02-XHQJvbbdWZHA4Zj-cugng.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## git message 提交信息类型
 

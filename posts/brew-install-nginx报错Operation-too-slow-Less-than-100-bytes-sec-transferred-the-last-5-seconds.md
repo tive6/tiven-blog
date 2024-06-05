@@ -14,7 +14,7 @@ date: 2023-04-14 10:44:04
 
 ![brew install nginx](https://tiven.cn/static/img/img-shell-02-evtTjyGQiSI_3NqvVhdjy.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 完整报错信息
 

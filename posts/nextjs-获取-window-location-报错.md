@@ -13,7 +13,7 @@ date: 2023-11-12 14:42:15
 
 ![(nextjs) window is not defined](https://tiven.cn/static/img/nextjs-01-noFVYR0e.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 完整报错
 

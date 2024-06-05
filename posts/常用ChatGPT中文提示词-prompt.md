@@ -14,7 +14,7 @@ date: 2023-11-27 15:29:13
 
 ![ChatGPT Prompt](https://tiven.cn/static/img/gpt-03-J8WBn5Im.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## ChatGPT中文提示词(prompt)大全
 

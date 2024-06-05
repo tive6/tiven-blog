@@ -13,7 +13,7 @@ date: 2023-08-02 19:34:50
 
 ![scrollTop & scrollIntoView](https://tiven.cn/static/img/js-scroll-ya3srwz1.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 问题复现
 

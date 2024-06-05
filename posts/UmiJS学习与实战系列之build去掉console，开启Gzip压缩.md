@@ -13,7 +13,7 @@ categories:
 
 ![UmiJS](https://tiven.cn/static/img/img-umi-build-TsF6Q56Hj3SGFyl5HFaHk.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 安装插件
 

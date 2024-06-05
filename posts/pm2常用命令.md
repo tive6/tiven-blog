@@ -13,7 +13,7 @@ date: 2022-05-05 16:15:25
 
 ![Node && PM2](https://tiven.cn/static/img/img-pm2-nbGS5mHrYfkp-kcsGkaxG.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、安装
 

@@ -13,7 +13,7 @@ categories:
 
 ![Github](https://tiven.cn/static/img/img-github-01-Eev9GJHwdfTy8p4WO4Qn8.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、查询IP地址
 

@@ -13,7 +13,7 @@ categories:
 
 ![Rust](https://tiven.cn/static/img/img-rust-01-57KUUPfINYXaMcOt6MMaB.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## Rust语言的特点
 

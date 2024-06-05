@@ -12,7 +12,7 @@ date: 2023-06-30 16:38:00
 
 ![Parcel TypeScript](https://tiven.cn/static/img/img-parcel-02-CNX0p6DL5IpDt52RYJmKR.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、使用场景
 

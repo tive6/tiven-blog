@@ -15,7 +15,7 @@ date: 2018-08-21 17:39:47
 
 ![Hexo](https://tiven.cn/static/img/img-hexo-01-5TwdLC0wrlKqSGCoFVmIr.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## Version
 

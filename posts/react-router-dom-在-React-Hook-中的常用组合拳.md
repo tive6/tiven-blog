@@ -13,7 +13,7 @@ React Router DOM 是一个用于在 React 应用中实现路由功能的库。�
 
 ![React Router DOM](https://tiven.cn/static/img/react-router-01-rkA4MlgO.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 >使用版本：`"react-router-dom": "^6.8.2"`
 

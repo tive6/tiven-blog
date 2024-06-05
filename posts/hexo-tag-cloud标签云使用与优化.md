@@ -12,7 +12,7 @@ categories:
 
 ![Hexo-标签云](https://tiven.cn/static/img/img-post-16-OG9r7c2QXdoxmdMCbWTpS.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 安装插件
 

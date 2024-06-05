@@ -15,7 +15,7 @@ description: jsonp接口返回的是一段js脚本，在浏览器中使用script
 
 ![Node+Axios Jsonp](https://tiven.cn/static/img/kpl-caocao-_5c1of3aPrOxvqnpJAr7q.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言
 

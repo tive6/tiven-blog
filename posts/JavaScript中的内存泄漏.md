@@ -12,7 +12,7 @@ JavaScript中的`内存泄漏`（Memory leak）问题经常不经意就会出现
 
 ![Javascript 内存泄漏](https://tiven.cn/static/img/hong-kong-city-urban-skyscrapers-preview-0S2nD6dOICqzC39ZR9PLX.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、概念
 

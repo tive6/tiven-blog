@@ -14,7 +14,7 @@ categories:
 
 ![单元测试 Jest](https://tiven.cn/static/img/img-jest-01-9DMqgrujfs2orHaPhpIiV.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、jest优势
 

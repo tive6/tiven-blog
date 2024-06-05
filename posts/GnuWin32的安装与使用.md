@@ -13,7 +13,7 @@ categories:
 
 ![GnuWin32](https://tiven.cn/static/img/img-post-14-lPavn7JjjNy9OxoNiWRF3.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 下载安装
 

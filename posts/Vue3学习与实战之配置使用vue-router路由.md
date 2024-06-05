@@ -14,7 +14,7 @@ top: 12
 
 ![Vue3 Router](https://tiven.cn/static/img/img-router-01-JeCRj_iQtGO4jfFUoctpg.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、目录结构
 

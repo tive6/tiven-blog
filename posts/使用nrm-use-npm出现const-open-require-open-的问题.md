@@ -13,7 +13,7 @@ date: 2023-02-26 15:11:04
 
 ![npm && nrm](https://tiven.cn/static/img/img-npm-02-fxFXF8douEz-BeV-vnEmk.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 问题原因
 

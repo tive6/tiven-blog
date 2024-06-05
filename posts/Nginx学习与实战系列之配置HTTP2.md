@@ -14,7 +14,7 @@ categories:
 
 ![Nginx HTTP2](https://tiven.cn/static/img/img-nginx-01-p2nf8ACAkWyNu_cU5BZh-.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1、HTTP2科普
 

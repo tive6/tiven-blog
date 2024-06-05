@@ -13,7 +13,7 @@ date: 2023-06-01 16:49:57
 
 ![Homebrew](https://tiven.cn/static/img/img-brew-01-eUW95s-ESCWHHGOw4qS3c.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、brew的安装
 

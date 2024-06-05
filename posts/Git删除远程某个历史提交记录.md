@@ -13,7 +13,7 @@ top: 11
 
 ![Git](https://tiven.cn/static/img/img-git-logo-dHEX-4INSJrbE5YrfaHQk.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 分两种情况：
 

@@ -13,7 +13,7 @@ date: 2023-07-05 11:30:55
 
 ![electron-updater](https://tiven.cn/static/img/img-post-tools-05-bPE6KNKqFE5O5G_lSHwMk.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、项目依赖和 scripts
 

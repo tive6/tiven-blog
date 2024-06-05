@@ -15,7 +15,7 @@ comments: true
 
 ![NPM](https://tiven.cn/static/img/img-npm-01-j8P88uTxHHNAtdwpd6WoH.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## colors
 

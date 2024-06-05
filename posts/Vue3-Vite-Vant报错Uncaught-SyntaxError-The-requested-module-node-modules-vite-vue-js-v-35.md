@@ -14,7 +14,7 @@ categories:
 
 ![Vue3+Vite+Vant](https://tiven.cn/static/img/img-vite-01-qXyz73DxsLe-cWhwRDezi.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 原因
 

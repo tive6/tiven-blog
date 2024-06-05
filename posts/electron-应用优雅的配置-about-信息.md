@@ -13,7 +13,7 @@ date: 2023-07-03 11:12:42
 
 ![electron & about](https://tiven.cn/static/img/img-post-tools-03-jMNMPdP7V8NKmJyKiguOv.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 项目依赖
 

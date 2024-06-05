@@ -15,7 +15,7 @@ description: ts-node运行ts代码报错：Cannot find name 'console'. Do you ne
 
 ![ts-node](https://tiven.cn/static/img/kpl-direnjie-WNPM9MKWYUHoO46xkxGSE.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、完整报错
 

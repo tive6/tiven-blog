@@ -14,7 +14,7 @@ date: 2022-04-27 10:40:33
 
 ![yarn](https://tiven.cn/static/img/img-yarn-02-yxqjB6cHzG2hmzKs8l2jm.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、报错原因
 

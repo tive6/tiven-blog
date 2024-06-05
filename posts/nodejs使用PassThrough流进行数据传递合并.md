@@ -14,7 +14,7 @@ date: 2023-08-16 17:27:30
 
 ![Node.js PassThrough流](https://tiven.cn/static/img/nodejs-01-gv0ZongC.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、什么是PassThrough流？
 

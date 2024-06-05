@@ -14,7 +14,7 @@ date: 2023-06-18 14:23:35
 
 ![tauri + solid.js](https://tiven.cn/static/img/img-tauri-01-TUfKEBG0KqkSHJO_8MRFQ.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 完整报错
 

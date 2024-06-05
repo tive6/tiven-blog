@@ -14,7 +14,7 @@ description: node中是自带模块化机制的，每个文件就是一个单独
 
 ![NodeJs Require](https://tiven.cn/static/img/harmony-relax-rock-moqui-preview-hY1THvm8usqhgsD1ODqJZ.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1.node模块化的实现
 

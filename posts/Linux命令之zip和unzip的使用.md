@@ -13,7 +13,7 @@ categories:
 
 ![Linux zip & unzip](https://tiven.cn/static/img/gleise-old-railroad-tracks-seemed-train-preview-bkeX3YA2FXeBwTXtX-A-W.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## zip 的使用
 

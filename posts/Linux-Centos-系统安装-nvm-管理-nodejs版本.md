@@ -14,7 +14,7 @@ date: 2023-06-28 17:53:53
 
 ![Centos nvm](https://tiven.cn/static/img/img-nvm-523XwPXpkp1yisPBwEqwd.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 下载 nvm 
 

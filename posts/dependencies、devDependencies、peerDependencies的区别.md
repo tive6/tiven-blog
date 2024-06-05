@@ -13,7 +13,7 @@ date: 2023-08-23 15:14:15
 
 ![npm & package.json](https://tiven.cn/static/img/img-npm-02-fxFXF8douEz-BeV-vnEmk.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、dependencies
 

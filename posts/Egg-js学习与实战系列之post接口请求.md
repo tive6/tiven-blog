@@ -14,7 +14,7 @@ categories:
 
 ![EggJS](https://tiven.cn/static/img/img-post-13-swe1tq6a2wykmnSmmNPuD.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 问题原因
 

@@ -13,7 +13,7 @@ date: 2023-08-01 19:06:58
 
 ![CentOS && pnpm](https://tiven.cn/static/img/img-pnpm-01-uuy8Ng5U-8RCd9KU396Kj.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 完整报错信息
 

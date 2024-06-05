@@ -13,7 +13,7 @@ date: 2023-08-29 18:14:56
 
 ![MVVM架构](https://tiven.cn/static/img/mvvm-01-ddPI1cdT.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、MVVM架构
 

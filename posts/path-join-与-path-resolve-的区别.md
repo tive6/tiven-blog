@@ -13,7 +13,7 @@ date: 2023-08-24 16:21:13
 
 ![node.js join & resolve](https://tiven.cn/static/img/img-node-01-0jAmqdcq1GY_D-X3hBWm3.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、path.join
 

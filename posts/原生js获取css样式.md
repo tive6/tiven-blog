@@ -12,7 +12,7 @@ date: 2017-03-10 16:10:33
 
 ![Image](https://tiven.cn/static/img/img-post-06-A7K9o0XwW-Rwf7y7jMRuN.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 * 事例
 ```html
 <!DOCTYPE html>

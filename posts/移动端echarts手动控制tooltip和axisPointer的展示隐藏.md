@@ -14,7 +14,7 @@ date: 2022-08-17 20:46:44
 
 ![Echarts && tooltip、axisPointer](https://tiven.cn/static/img/img-echart-01-sF_PutSoSfMgdarnFOA6g.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、组件解释说明
 

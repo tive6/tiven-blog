@@ -14,7 +14,7 @@ date: 2023-06-06 15:27:12
 
 ![windows shell 别名](https://tiven.cn/static/img/img-shell-03-B43TyJBUmlnQtFi23jWBF.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 配置一个 rmm 命令
 

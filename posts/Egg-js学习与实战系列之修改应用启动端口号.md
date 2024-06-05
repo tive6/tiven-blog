@@ -13,7 +13,7 @@ date: 2021-09-12 21:41:21
 
 ![EggJS](https://tiven.cn/static/img/img-eggjs-service-2sMvHXzfGw56wKUBOhbMm.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 * 在 `config/config.default.js` 配置如下代码：
 

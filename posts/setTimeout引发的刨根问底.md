@@ -12,7 +12,7 @@ categories:
 
 ![JavaScript setTimeout](https://tiven.cn/static/img/img-js-03-fs67PSGCGxT3ZB1PBaDhg.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、setTimeout 介绍
 

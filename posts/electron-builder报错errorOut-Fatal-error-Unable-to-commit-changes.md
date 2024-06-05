@@ -13,7 +13,7 @@ date: 2023-01-19 14:59:07
 
 ![electron-builder](https://tiven.cn/static/img/img-electron-02-pznVUBgmCrxh1oUUwK1e3.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 完整报错信息
 

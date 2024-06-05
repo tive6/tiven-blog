@@ -14,7 +14,7 @@ categories:
 
 ![Linux Crontab](https://tiven.cn/static/img/img-post-28-rCPLbtjuVFo4b3ECXkdb5.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## Crontab介绍
 

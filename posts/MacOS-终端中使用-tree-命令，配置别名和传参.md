@@ -13,7 +13,7 @@ date: 2023-07-08 10:44:59
 
 ![Mac tree](https://tiven.cn/static/img/img-shell-02-evtTjyGQiSI_3NqvVhdjy.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

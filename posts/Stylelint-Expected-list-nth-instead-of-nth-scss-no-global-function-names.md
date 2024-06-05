@@ -14,7 +14,7 @@ vue3 + vite 项目中，使用 `Stylelint` 检查和格式化 **css、less、scs
 
 ![Sass & Stylelint](https://tiven.cn/static/img/img-sass-01-GS5LQHZQxfhJcSbG2NjuY.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 代码展示
 

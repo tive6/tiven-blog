@@ -13,7 +13,7 @@ categories:
 
 ![Node执行Shell命令](https://tiven.cn/static/img/img-node-02-1jXsPFoG01-MrGe6Xa7Rr.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、node原生模块：`child_process`
 

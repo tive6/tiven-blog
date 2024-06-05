@@ -17,7 +17,7 @@ description: Post-Tool 就是基于 Node.js、React.js、Electron.js 和 Axios.j
 
 ![Post-Tool](https://tiven.cn/static/img/img-post-tool-RQRg1E7_FxKwhMgeCYOPX.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言
 

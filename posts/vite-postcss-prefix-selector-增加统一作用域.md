@@ -13,7 +13,7 @@ date: 2024-01-30 10:35:11
 
 ![vite postcss-prefix-selector](https://tiven.cn/static/img/vite-04-omLE_vlH.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1. 安装 Vite 项目
 

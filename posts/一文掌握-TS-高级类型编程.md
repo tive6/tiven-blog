@@ -13,7 +13,7 @@ date: 2024-03-08 14:51:15
 
 ![TypeScript](https://tiven.cn/static/img/img-ts-01-Xyj6BEm7dx6FDpFKrbJGp.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 前言
 

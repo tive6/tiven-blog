@@ -12,7 +12,7 @@ date: 2024-04-05 17:44:05
 
 ![vite](https://tiven.cn/static/img/vite-03-xbVS9jZm.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 - `package.json` 依赖配置
 

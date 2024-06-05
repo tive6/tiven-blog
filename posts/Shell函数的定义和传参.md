@@ -14,7 +14,7 @@ linux `shell` 可以用户定义函数，然后在`shell`脚本中可以随便�
 
 ![Shell函数](https://tiven.cn/static/img/shell-02-HNNeI3Rh.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## shell中函数的定义格式
 

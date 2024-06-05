@@ -12,7 +12,7 @@ date: 2023-08-26 15:50:59
 
 ![null & undefined](https://tiven.cn/static/img/js-null-XaF4oSVY.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、null
 

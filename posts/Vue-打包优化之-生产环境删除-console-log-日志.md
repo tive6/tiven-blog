@@ -15,7 +15,7 @@ date: 2022-07-28 16:00:18
 ![vue remove console](https://tiven.cn/static/img/img-vue-02-vnCFBMX9o39TemLsW6asl.jpg)
 
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、项目依赖
 

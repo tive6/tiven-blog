@@ -13,7 +13,7 @@ date: 2023-09-03 16:43:47
 
 ![React 阻止冒泡](https://tiven.cn/static/img/img-react-01-awodTve6vGeownJ6xi27U.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、类组件示例
 

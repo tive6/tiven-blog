@@ -12,7 +12,7 @@ categories:
 
 ![Hexo-Cache](https://tiven.cn/static/img/img-hexo-cache-2Fbpxdf7e--cOX3OYxQlM.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 **问题描述：** 新建文章，由于标题文字中间有`空格`，导致最后生成的`.md`文件名被截断不完整。所以删除了`.md`文件又重新生成。
 

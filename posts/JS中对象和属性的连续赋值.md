@@ -12,7 +12,7 @@ date: 2022-12-07 16:30:00
 
 ![JavaScript](https://tiven.cn/static/img/img-js-7Uw2ZXg53OAQ0e4FUUFDc.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、经典面试题
 

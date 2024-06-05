@@ -13,7 +13,7 @@ date: 2023-08-17 18:14:08
 
 ![Node.js child_process](https://tiven.cn/static/img/nodejs-01-gv0ZongC.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、方法概览
 

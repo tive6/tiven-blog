@@ -13,7 +13,7 @@ date: 2023-07-10 22:53:08
 
 ![堆(heap)、栈(stack)、队列(queue)](https://tiven.cn/static/img/img-dsa-01-6Q5tuJKvFrD-nx9eIVizq.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、前言
 

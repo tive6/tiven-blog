@@ -16,7 +16,7 @@ description: 使用Vue、React等框架开发的SPA单页面应用在打包文�
 
 ![Nginx & CDN Cache](https://tiven.cn/static/img/img-nginx-03-PjKgeO2EXmC2et_5N5c0l.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 配置Nginx
 

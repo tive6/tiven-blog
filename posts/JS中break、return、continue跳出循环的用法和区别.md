@@ -12,7 +12,7 @@ date: 2022-07-08 10:56:52
 
 ![break && return && continue](https://tiven.cn/static/img/img-js-03-pqLtfAZcQURmUDXYM4DYu.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、break
 

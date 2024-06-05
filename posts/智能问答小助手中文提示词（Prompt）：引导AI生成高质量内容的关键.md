@@ -13,7 +13,7 @@ date: 2023-11-25 15:19:56
 
 ![ChatGPT Prompt](https://tiven.cn/static/img/gpt-01-70g4Sg5f.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、什么是Prompt？
 

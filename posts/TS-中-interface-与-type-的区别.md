@@ -12,7 +12,7 @@ date: 2023-08-03 20:17:38
 
 ![TypeScript](https://tiven.cn/static/img/img-ts-01-Xyj6BEm7dx6FDpFKrbJGp.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、interface 接口类型
 

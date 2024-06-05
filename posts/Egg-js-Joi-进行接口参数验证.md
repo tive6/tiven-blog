@@ -14,7 +14,7 @@ date: 2023-08-18 11:18:49
 
 ![Egg.js + Joi](https://tiven.cn/static/img/eggjs-01-t4dYaNtm.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 一、Joi 简介
 

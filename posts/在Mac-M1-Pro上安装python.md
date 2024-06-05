@@ -15,7 +15,7 @@ date: 2023-04-08 17:53:51
 
 ![brew install python](https://tiven.cn/static/img/img-shell-02-evtTjyGQiSI_3NqvVhdjy.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## pyenv 介绍
 

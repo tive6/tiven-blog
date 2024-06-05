@@ -13,7 +13,7 @@ date: 2024-04-22 16:01:31
 
 ![faker](https://tiven.cn/static/img/npm-fakerjs-8Tguor-2.jpg)
 
-<!-- more -->
+[//]: # (<!-- more -->)
 
 ## 1. Chance.js
 
