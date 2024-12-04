@@ -188,3 +188,14 @@ export const presetList = [
     ],
   },
 ]
+
+export const capitalizeOpts = [
+  {
+    label: '小写',
+    value: 'lower',
+  },
+  {
+    label: '大写',
+    value: 'upper',
+  },
+]

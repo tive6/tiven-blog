@@ -1,9 +1,10 @@
 import { RedoOutlined } from '@ant-design/icons'
 import { useReactive } from 'ahooks'
-import { Button, Card, Divider, Input, Space } from 'antd'
+import { Button, Card, Divider, Input, Select, Space } from 'antd'
 import MD5 from 'crypto-js/md5'
 import { useEffect } from 'react'
 
+import { capitalizeOpts } from '@/common/constants'
 import { genMd5, genUUID } from '@/common/utils'
 
 const Page = () => {
@@ -13,6 +14,7 @@ const Page = () => {
     json: '',
     jsonStr: '',
     content: '',
+    capitalize: 'lower',
   })
 
   function getUUID() {
@@ -20,10 +22,16 @@ const Page = () => {
   }
 
   async function getMd5() {
+    let str = ''
     if (data.content) {
-      data.md5 = MD5(data.content).toString()
+      str = MD5(data.content).toString()
     } else {
-      data.md5 = await genMd5()
+      str = await genMd5()
+    }
+    if (data.capitalize === 'upper') {
+      data.md5 = str.toUpperCase()
+    } else {
+      data.md5 = str.toLowerCase()
     }
   }
 
@@ -62,6 +70,13 @@ const Page = () => {
           title="生成MD5"
           extra={
             <Space.Compact block>
+              <Select
+                defaultValue={data.capitalize}
+                onChange={(val) => {
+                  data.capitalize = val
+                }}
+                options={capitalizeOpts}
+              />
               <Input
                 allowClear
                 style={{ width: '230px' }}
