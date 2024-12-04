@@ -1,3 +1,5 @@
+import MD5 from 'crypto-js/md5'
+
 export const genUUID = () => {
   return crypto.randomUUID()
 }
@@ -10,6 +12,10 @@ export const md5 = async (str) => {
   return hashHex.slice(0, 32)
 }
 
-export const genMd5 = async () => {
-  return await md5(Math.random().toString(36))
+// export const genMd5 = async () => {
+//   return await md5(Math.random().toString(36))
+// }
+
+export const genMd5 = () => {
+  return MD5(genUUID()).toString()
 }

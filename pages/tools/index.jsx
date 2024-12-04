@@ -26,7 +26,7 @@ const Page = () => {
     if (data.content) {
       str = MD5(data.content).toString()
     } else {
-      str = await genMd5()
+      str = genMd5()
     }
     if (data.capitalize === 'upper') {
       data.md5 = str.toUpperCase()
