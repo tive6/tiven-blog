@@ -1,6 +1,7 @@
 import { RedoOutlined } from '@ant-design/icons'
 import { useReactive } from 'ahooks'
 import { Button, Card, Divider, Input, Space } from 'antd'
+import MD5 from 'crypto-js/md5'
 import { useEffect } from 'react'
 
 import { genMd5, genUUID } from '@/common/utils'
@@ -11,6 +12,7 @@ const Page = () => {
     md5: '',
     json: '',
     jsonStr: '',
+    content: '',
   })
 
   function getUUID() {
@@ -18,7 +20,11 @@ const Page = () => {
   }
 
   async function getMd5() {
-    data.md5 = await genMd5()
+    if (data.content) {
+      data.md5 = MD5(data.content).toString()
+    } else {
+      data.md5 = await genMd5()
+    }
   }
 
   function getJson(type) {
@@ -53,11 +59,21 @@ const Page = () => {
           <Input.TextArea value={data.uuid}></Input.TextArea>
         </Card>
         <Card
-          title="随机MD5"
+          title="生成MD5"
           extra={
-            <Button onClick={getMd5} type="primary" icon={<RedoOutlined />}>
-              生成
-            </Button>
+            <Space.Compact block>
+              <Input
+                allowClear
+                style={{ width: '230px' }}
+                placeholder="内容为空时，生成随机MD5"
+                onChange={(e) => {
+                  data.content = e.target.value
+                }}
+              />
+              <Button onClick={getMd5} type="primary" icon={<RedoOutlined />}>
+                生成
+              </Button>
+            </Space.Compact>
           }
         >
           <Input.TextArea value={data.md5}></Input.TextArea>
