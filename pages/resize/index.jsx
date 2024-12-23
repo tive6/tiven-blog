@@ -1,7 +1,7 @@
 import { InboxOutlined } from '@ant-design/icons'
 import { Button, Form, Input, Upload } from 'antd'
 import axios from 'axios'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 import { downloadFile } from '@/common/utils'
 
@@ -15,6 +15,7 @@ const formItemLayout = {
 export default function Page() {
   const [form] = Form.useForm()
   const currentFile = useRef()
+  const [loading, setLoading] = useState(false)
 
   const props = {
     name: 'file',
@@ -64,6 +65,7 @@ export default function Page() {
       }
     })
     try {
+      setLoading(true)
       let res = await axios({
         url: 'api/upload-to-resize',
         method: 'POST',
@@ -77,6 +79,8 @@ export default function Page() {
       downloadFile(res)
     } catch (e) {
       console.log(e)
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -129,7 +133,12 @@ export default function Page() {
         {/*</Form.Item>*/}
       </Form>
       <div className="flex justify-center items-center px-30%">
-        <Button type="primary" onClick={submit}>
+        <Button
+          disabled={loading}
+          loading={loading}
+          type="primary"
+          onClick={submit}
+        >
           转换
         </Button>
       </div>
