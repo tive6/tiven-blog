@@ -90,7 +90,7 @@ export default function Page() {
     text = text?.trim() ? text.trim() : `${width} x ${height}`
     query.append('text', encodeURIComponent(text))
     let p = query.toString()
-    console.log(p)
+    // console.log(p)
     setQueryURL(p)
     setImgSrc(`${publicPath}/${width}/${height}?${p}`)
   }

@@ -24,6 +24,11 @@ const tabsData = [
     children: null,
   },
   {
+    key: '/resize',
+    label: '图片 Resize',
+    children: null,
+  },
+  {
     key: '/figure',
     label: '占位图在线生成',
     children: null,
@@ -69,14 +74,14 @@ export default function Header({ siteTitle }) {
       </Head>
       <section className="w-450px mx-auto mt-10px text-center">
         <p>博观而约取，厚积而薄发</p>
-        <p className="text-#666 mt-10px">
+        <p className="text-#666 text-left mt-10px">
           天问的个人网站(天问博客)，专注于Node.js、Vue.js、React、Vite、Npm、Nginx等大前端技术。不断学习新技术，记录日常开发问题，持续分享coding，极客开源，共同进步。生命不息，奋斗不止...
           [{' '}
           <a
             className="text-#66b1ff decoration-underline"
             href="https://tiven.cn"
           >
-            hexo blog
+            Hexo Blog
           </a>{' '}
           ]
         </p>

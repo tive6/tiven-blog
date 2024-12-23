@@ -10,9 +10,9 @@ const isDev = process.env.NODE_ENV === 'development'
 export default async function GET(req, res) {
   try {
     let { px, text, bg, color, size, type } = req.query
-    console.log(req.query)
+    console.log(11, req.query)
     let [w, h] = px?.length >= 2 ? px : [200, 200]
-    text = decodeURIComponent(text) || `${w} x ${h}`
+    text = (text && decodeURIComponent(text)) || `${w} x ${h}`
     text = text.replace(/&/g, '&amp;')
     bg = bg || 'ccc'
     color = color || '666'

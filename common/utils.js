@@ -19,3 +19,21 @@ export const md5 = async (str) => {
 export const genMd5 = () => {
   return MD5(genUUID()).toString()
 }
+
+export const downloadFile = (res) => {
+  let { headers, data } = res
+  let disposition = headers['content-disposition']
+  let filename = disposition.split('=')[1].replace(/\\\\"/g, '')
+  // let blob = new Blob([res.data], {
+  //   type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8',
+  // })
+  filename = decodeURIComponent(filename)
+  let url = window.URL.createObjectURL(data)
+  let link = document.createElement('a')
+  link.href = url
+  link.download = filename
+  document.body.appendChild(link)
+  link.click()
+  link.remove()
+  window.URL.revokeObjectURL(url)
+}
